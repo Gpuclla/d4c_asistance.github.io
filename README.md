@@ -2,28 +2,6 @@
 
 Panel de organización para un cortometraje de bajo presupuesto. Funciona en el navegador, sin servidor y sin internet.
 
-## Cómo abrirlo
-Abre `index.html` con Chrome, Edge o Firefox. Para que la base local funcione igual en todos los navegadores, lo ideal es servir la carpeta (por ejemplo `python -m http.server` y entrar a `http://localhost:8000`).
-
-## Dónde se guardan los datos
-En la base local del navegador (IndexedDB), en este equipo. No se envía nada a internet.
-- **Copia de seguridad** (botón en el menú lateral): descarga todos los datos en un `.json`, los restaura o empieza un proyecto en limpio.
-- Si limpias los datos del navegador, la base se borra: descarga copias con frecuencia.
-- La base se llama `asistencia-direccion`. Si cambias la estructura de tablas, sube `VERSION` en `js/servicios/db.js`.
-
-## Estructura
-- `index.html` y `panel/`: panel principal.
-- `modulos/<nombre>/`: un módulo por carpeta (hoy `equipo`, `tareas` y `cronograma`). Las carpetas van siempre en minúscula.
-- `js/servicios/`: datos (`db.js`) y reglas de negocio (`equipo.service.js`, `tareas.service.js`, `cronograma.service.js`). Cada módulo lee de los servicios de los demás: no repite sus reglas.
-- `js/componentes/`: menú lateral, formulario en diálogo y copia de seguridad, compartidos por todos los módulos.
-- `data/semillas/semillas.js`: datos de ejemplo (se cargan una sola vez).
-
-## Para sumar un módulo
-1. Crea `modulos/<nombre>/<nombre>.html|js|css` copiando la estructura de `equipo`.
-2. En `js/componentes/lateral.js` cambia el último valor de su fila a `true`.
-
-## Fuente sin internet
-Copia `HankenGrotesk-Variable.woff2` en `assets/fuentes/`. Sin ese archivo se usa la fuente de Google (con internet) o la del sistema.
 
 ## Módulo Gestión de tareas
 - Cuatro vistas: **Panel de tareas**, **Tablero Kanban**, **Lista de tareas** y el formulario de **Registro** (cinco grupos: Identificación, Responsabilidad, Planificación, Seguimiento y Referencias).
@@ -42,7 +20,7 @@ Copia `HankenGrotesk-Variable.woff2` en `assets/fuentes/`. Sin ese archivo se us
 - Fechas y horas se guardan como texto local `AAAA-MM-DDTHH:mm`.
 - **Gantt (mejora futura):** no necesita otra base de datos. Puede dibujarse con `inicio`, `fin`, `predecesoras` (con su tipo de relación), `etapa` y `departamento` de cada actividad.
 
-## Módulo 06 · Desglose de guion
+## Módulo Desglose de guion
 
 Convierte un guion en escenas y elementos de producción, listos para revisar y repartir en tareas.
 
@@ -53,5 +31,3 @@ Convierte un guion en escenas y elementos de producción, listos para revisar y 
 - **Inventario**: un único registro por elemento, reutilizado en todas las escenas donde aparece; repetidos, estado (deducido de sus apariciones), filtros por categoría, escena, departamento y estado, edición y fusión de duplicados.
 - **Revisión y versiones**: cada importación crea una versión; nunca se sobrescribe el desglose anterior. El estado del desglose se deduce del de sus escenas. Escenas y elementos dudosos y posibles duplicados se listan para revisar.
 - **Con otros módulos**: «Crear tarea» desde un elemento (responsables de Equipo y cargos; la tarea guarda el vínculo y su estado se sigue en Gestión de tareas). `Desglose.escenasConNecesidades()` queda disponible para el Cronograma.
-
-Tablas nuevas en la base (versión 3): `guiones`, `escenas`, `elementos`, `apariciones`. Pendiente para más adelante: comparar versiones, OCR, volver a analizar sin perder las correcciones.
