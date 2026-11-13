@@ -1,0 +1,3428 @@
+{
+  "app": "asistencia-direccion",
+  "version": 3,
+  "exportado": "2026-11-13T06:56:56.632Z",
+  "tablas": {
+    "proyecto": [
+      {
+        "id": "proyecto",
+        "titulo": "¿No eras Tu?",
+        "direccion": "Fabiana Urbano",
+        "produccion": "Michinema Studio",
+        "inicioRodaje": "2026-11-23",
+        "etapa": "desarrollo"
+      }
+    ],
+    "personas": [
+      {
+        "id": "pmvr6s2mr9io",
+        "nombre": "Fabiana Urbano",
+        "telefono": "",
+        "correo": "",
+        "estado": "confirmada",
+        "disp": "parcial",
+        "restricciones": "24 no puede",
+        "observaciones": ""
+      },
+      {
+        "id": "pmvr6sk2z43c",
+        "nombre": "Gonzalo Puclla",
+        "telefono": "",
+        "correo": "",
+        "estado": "confirmada",
+        "disp": "disponible",
+        "restricciones": "",
+        "observaciones": ""
+      },
+      {
+        "id": "pmvr6t5dnrjd",
+        "nombre": "Jose Flores",
+        "telefono": "",
+        "correo": "",
+        "estado": "confirmada",
+        "disp": "disponible",
+        "restricciones": "",
+        "observaciones": ""
+      },
+      {
+        "id": "pmvr6ti5773m",
+        "nombre": "Samuel Caycho",
+        "telefono": "",
+        "correo": "",
+        "estado": "confirmada",
+        "disp": "parcial",
+        "restricciones": "25-26 no puede",
+        "observaciones": ""
+      },
+      {
+        "id": "pmvr6ty2b0of",
+        "nombre": "Nathan Ligth",
+        "telefono": "",
+        "correo": "",
+        "estado": "confirmada",
+        "disp": "disponible",
+        "restricciones": "",
+        "observaciones": ""
+      },
+      {
+        "id": "pmvr6ue5fene",
+        "nombre": "Adrian",
+        "telefono": "",
+        "correo": "",
+        "estado": "confirmada",
+        "disp": "disponible",
+        "restricciones": "",
+        "observaciones": ""
+      }
+    ],
+    "cargos": [
+      {
+        "id": "cg1",
+        "nombre": "Dirección general",
+        "departamento": "Dirección",
+        "funciones": "Visión creativa y conducción del rodaje",
+        "estado": "activo",
+        "plazas": 1
+      },
+      {
+        "id": "cg10",
+        "nombre": "Director de Sonido directo",
+        "departamento": "Sonido",
+        "funciones": "Captura de sonido durante el rodaje",
+        "estado": "activo",
+        "plazas": 1
+      },
+      {
+        "id": "cg2",
+        "nombre": "1.er asistente de dirección",
+        "departamento": "Dirección",
+        "funciones": "Plan de rodaje, orden del set y control de tiempos",
+        "estado": "activo",
+        "plazas": 1
+      },
+      {
+        "id": "cg3",
+        "nombre": "2.º asistente de dirección",
+        "departamento": "Dirección",
+        "funciones": "Hojas de llamado, extras y apoyo al primer asistente",
+        "estado": "activo",
+        "plazas": 1
+      },
+      {
+        "id": "cg4",
+        "nombre": "Continuidad (script)",
+        "departamento": "Dirección",
+        "funciones": "Registro de continuidad entre tomas y escenas",
+        "estado": "activo",
+        "plazas": 1
+      },
+      {
+        "id": "cg5",
+        "nombre": "Jefatura de producción",
+        "departamento": "Producción",
+        "funciones": "Presupuesto, permisos y logística general",
+        "estado": "activo",
+        "plazas": 1
+      },
+      {
+        "id": "cg6",
+        "nombre": "Asistencia de producción",
+        "departamento": "Producción",
+        "funciones": "Apoyo logístico en locación",
+        "estado": "activo",
+        "plazas": 2
+      },
+      {
+        "id": "cg7",
+        "nombre": "Director de fotografía",
+        "departamento": "Fotografía",
+        "funciones": "Iluminación y encuadre",
+        "estado": "activo",
+        "plazas": 1
+      },
+      {
+        "id": "cg8",
+        "nombre": "Asistencia de cámara",
+        "departamento": "Fotografía",
+        "funciones": "Foco, carga de equipo y mantenimiento de cámara",
+        "estado": "activo",
+        "plazas": 1
+      },
+      {
+        "id": "cg9",
+        "nombre": "Dirección de arte",
+        "departamento": "Arte",
+        "funciones": "Diseño de escenarios, utilería y vestuario",
+        "estado": "activo",
+        "plazas": 1
+      },
+      {
+        "id": "cgmvq6mtlp1by",
+        "nombre": "Gaffer Principal",
+        "departamento": "Iluminación",
+        "plazas": 3,
+        "estado": "activo",
+        "funciones": "Encargados del área de iluminación del set"
+      },
+      {
+        "id": "cgmvqak0tuh0b",
+        "nombre": "Lumino",
+        "departamento": "Iluminación",
+        "plazas": 1,
+        "estado": "activo",
+        "funciones": ""
+      },
+      {
+        "id": "cgmvqamqaqwhi",
+        "nombre": "Guionista Principal",
+        "departamento": "Guion",
+        "plazas": 1,
+        "estado": "activo",
+        "funciones": ""
+      },
+      {
+        "id": "cgmvqapc02n8n",
+        "nombre": "Asistente de Sonido Directo",
+        "departamento": "Sonido",
+        "plazas": 1,
+        "estado": "activo",
+        "funciones": ""
+      },
+      {
+        "id": "cgmvqaplp6tbe",
+        "nombre": "Mezcla de Sonido",
+        "departamento": "Sonido",
+        "plazas": 1,
+        "estado": "activo",
+        "funciones": ""
+      },
+      {
+        "id": "cgmvr6uxnuszf",
+        "nombre": "Actor",
+        "departamento": "Actores",
+        "plazas": 1,
+        "estado": "activo",
+        "funciones": ""
+      },
+      {
+        "id": "cgmvr6v4r758i",
+        "nombre": "Actriz",
+        "departamento": "Actores",
+        "plazas": 1,
+        "estado": "activo",
+        "funciones": ""
+      }
+    ],
+    "asignaciones": [
+      {
+        "id": "amvr6s2mr4pq",
+        "personaId": "pmvr6s2mr9io",
+        "cargoId": "cg1",
+        "estado": "confirmada",
+        "fecha": "2026-10-27",
+        "observaciones": ""
+      },
+      {
+        "id": "amvr6sk2z2g1",
+        "personaId": "pmvr6sk2z43c",
+        "cargoId": "cg5",
+        "estado": "confirmada",
+        "fecha": "2026-10-27",
+        "observaciones": ""
+      },
+      {
+        "id": "amvr6t5dnfs3",
+        "personaId": "pmvr6t5dnrjd",
+        "cargoId": "cg7",
+        "estado": "confirmada",
+        "fecha": "2026-10-27",
+        "observaciones": ""
+      },
+      {
+        "id": "amvr6ti5738x",
+        "personaId": "pmvr6ti5773m",
+        "cargoId": "cg10",
+        "estado": "confirmada",
+        "fecha": "2026-10-27",
+        "observaciones": ""
+      },
+      {
+        "id": "amvr6ty2bsn7",
+        "personaId": "pmvr6ty2b0of",
+        "cargoId": "cg9",
+        "estado": "confirmada",
+        "fecha": "2026-10-27",
+        "observaciones": ""
+      },
+      {
+        "id": "amvr6vedm2ps",
+        "personaId": "pmvr6ue5fene",
+        "cargoId": "cgmvr6uxnuszf",
+        "estado": "confirmada",
+        "fecha": "2026-10-27",
+        "observaciones": ""
+      },
+      {
+        "id": "amvr6vpz6fj6",
+        "personaId": "pmvr6ty2b0of",
+        "cargoId": "cgmvr6uxnuszf",
+        "estado": "confirmada",
+        "fecha": "2026-10-27",
+        "observaciones": ""
+      },
+      {
+        "id": "amvrhbyhao5e",
+        "personaId": "pmvr6s2mr9io",
+        "cargoId": "cgmvqamqaqwhi",
+        "estado": "confirmada",
+        "fecha": "2026-10-27",
+        "observaciones": ""
+      }
+    ],
+    "tareas": [
+      {
+        "codigo": "T-015",
+        "titulo": "Escritura de Guion",
+        "descripcion": "Escribir un guion de 5 paginas",
+        "criterio": "",
+        "etapa": "desarrollo",
+        "departamento": "Guion",
+        "resp": "pmvr6s2mr9io",
+        "seguimiento": "",
+        "participantes": [],
+        "prioridad": "critica",
+        "inicio": "2026-10-27",
+        "vence": "2026-10-28",
+        "duracion": "",
+        "duracionUnidad": "h",
+        "dependencias": [],
+        "estado": "hecha",
+        "fin": "2026-10-27",
+        "motivoBloqueo": "",
+        "observaciones": "",
+        "creada": "2026-10-27",
+        "actualizada": "2026-10-27",
+        "docTipo": "",
+        "docRef": "",
+        "cambios": [
+          {
+            "ts": 1793153201976,
+            "texto": "Se creó la tarea"
+          },
+          {
+            "ts": 1793153257115,
+            "texto": "Estado: Pendiente → Hecha"
+          }
+        ],
+        "id": "tmvrh49q03la"
+      },
+      {
+        "codigo": "T-016",
+        "titulo": "Desglose de Guion",
+        "descripcion": "Desglosar guion",
+        "criterio": "",
+        "etapa": "desarrollo",
+        "departamento": "Producción",
+        "resp": "pmvr6sk2z43c",
+        "seguimiento": "",
+        "participantes": [],
+        "prioridad": "critica",
+        "inicio": "2026-10-27",
+        "vence": "2026-10-28",
+        "duracion": 8,
+        "duracionUnidad": "h",
+        "dependencias": [],
+        "estado": "pendiente",
+        "fin": "",
+        "motivoBloqueo": "",
+        "observaciones": "",
+        "creada": "2026-10-27",
+        "actualizada": "2026-10-27",
+        "docTipo": "",
+        "docRef": "",
+        "cambios": [
+          {
+            "ts": 1793153250415,
+            "texto": "Se creó la tarea"
+          },
+          {
+            "ts": 1793159413696,
+            "texto": "Se cambió la duración estimada"
+          }
+        ],
+        "id": "tmvrh5b3j3fl"
+      },
+      {
+        "codigo": "T-017",
+        "titulo": "Alquiler de Locacion",
+        "descripcion": "Ubicar una locacion para el desarrollo del corto",
+        "criterio": "",
+        "etapa": "desarrollo",
+        "departamento": "Producción",
+        "resp": "pmvr6s2mr9io",
+        "seguimiento": "",
+        "participantes": [
+          "pmvr6sk2z43c"
+        ],
+        "prioridad": "media",
+        "inicio": "2026-10-27",
+        "vence": "2026-10-28",
+        "duracion": "",
+        "duracionUnidad": "h",
+        "dependencias": [
+          "tmvrh49q03la"
+        ],
+        "estado": "hecha",
+        "fin": "2026-10-27",
+        "motivoBloqueo": "",
+        "observaciones": "",
+        "creada": "2026-10-27",
+        "actualizada": "2026-10-27",
+        "docTipo": "",
+        "docRef": "",
+        "cambios": [
+          {
+            "ts": 1793153305375,
+            "texto": "Se creó la tarea"
+          },
+          {
+            "ts": 1793153311258,
+            "texto": "Estado: Pendiente → Hecha"
+          }
+        ],
+        "id": "tmvrh6hi7m9x"
+      },
+      {
+        "codigo": "T-018",
+        "titulo": "Guion tecnico",
+        "descripcion": "Presentar Guion tecnico y Planta de camara",
+        "criterio": "",
+        "etapa": "desarrollo",
+        "departamento": "Fotografía",
+        "resp": "pmvr6t5dnrjd",
+        "seguimiento": "",
+        "participantes": [],
+        "prioridad": "alta",
+        "inicio": "2026-10-28",
+        "vence": "2026-10-29",
+        "duracion": "",
+        "duracionUnidad": "h",
+        "dependencias": [],
+        "estado": "hecha",
+        "fin": "2026-11-13",
+        "motivoBloqueo": "",
+        "observaciones": "",
+        "creada": "2026-10-27",
+        "actualizada": "2026-11-13",
+        "docTipo": "",
+        "docRef": "",
+        "cambios": [
+          {
+            "ts": 1793153364671,
+            "texto": "Se creó la tarea"
+          },
+          {
+            "ts": 1793153384847,
+            "texto": "Prioridad: Media → Alta"
+          },
+          {
+            "ts": 1794552924445,
+            "texto": "Estado: Pendiente → Hecha"
+          }
+        ],
+        "id": "tmvrh7r9bmgs"
+      },
+      {
+        "codigo": "T-019",
+        "titulo": "Propuesta de Sonido",
+        "descripcion": "Proponer el sonido necesario para el proyecto",
+        "criterio": "",
+        "etapa": "desarrollo",
+        "departamento": "Sonido",
+        "resp": "pmvr6ti5773m",
+        "seguimiento": "",
+        "participantes": [],
+        "prioridad": "media",
+        "inicio": "2026-10-28",
+        "vence": "2026-10-30",
+        "duracion": "",
+        "duracionUnidad": "h",
+        "dependencias": [],
+        "estado": "hecha",
+        "fin": "2026-11-13",
+        "motivoBloqueo": "",
+        "observaciones": "",
+        "creada": "2026-10-27",
+        "actualizada": "2026-11-13",
+        "docTipo": "",
+        "docRef": "",
+        "cambios": [
+          {
+            "ts": 1793153428215,
+            "texto": "Se creó la tarea"
+          },
+          {
+            "ts": 1794552926694,
+            "texto": "Estado: Pendiente → Hecha"
+          }
+        ],
+        "id": "tmvrh94aftq2"
+      },
+      {
+        "codigo": "T-020",
+        "titulo": "Vestimentas",
+        "descripcion": "Buscar las vestimentas",
+        "criterio": "",
+        "etapa": "desarrollo",
+        "departamento": "Actores",
+        "resp": "",
+        "seguimiento": "",
+        "participantes": [
+          "pmvr6ue5fene",
+          "pmvr6ty2b0of"
+        ],
+        "prioridad": "baja",
+        "inicio": "",
+        "vence": "",
+        "duracion": "",
+        "duracionUnidad": "h",
+        "dependencias": [],
+        "estado": "pendiente",
+        "fin": "",
+        "motivoBloqueo": "",
+        "observaciones": "",
+        "creada": "2026-10-27",
+        "actualizada": "2026-10-27",
+        "docTipo": "",
+        "docRef": "",
+        "cambios": [
+          {
+            "ts": 1793153466679,
+            "texto": "Se creó la tarea"
+          }
+        ],
+        "id": "tmvrh9xyvcgi"
+      },
+      {
+        "codigo": "T-021",
+        "titulo": "Permisos de Equipos",
+        "descripcion": "Solicitar permiso de equipos de EPIC",
+        "criterio": "Sonido, cámara y luces",
+        "etapa": "desarrollo",
+        "departamento": "Producción",
+        "resp": "pmvr6sk2z43c",
+        "seguimiento": "",
+        "participantes": [],
+        "prioridad": "critica",
+        "inicio": "2026-10-28",
+        "vence": "2026-10-30",
+        "duracion": 12,
+        "duracionUnidad": "h",
+        "dependencias": [],
+        "estado": "pendiente",
+        "fin": "",
+        "motivoBloqueo": "",
+        "observaciones": "",
+        "creada": "2026-10-27",
+        "actualizada": "2026-10-27",
+        "docTipo": "",
+        "docRef": "",
+        "cambios": [
+          {
+            "ts": 1793153524967,
+            "texto": "Se creó la tarea"
+          },
+          {
+            "ts": 1793156237180,
+            "texto": "Se cambió la duración estimada"
+          }
+        ],
+        "id": "tmvrhb6xzzse"
+      },
+      {
+        "codigo": "T-022",
+        "titulo": "Recogo de Presupuesto",
+        "descripcion": "Recolectar presupuesto",
+        "criterio": "",
+        "etapa": "desarrollo",
+        "departamento": "Producción",
+        "resp": "pmvr6sk2z43c",
+        "seguimiento": "",
+        "participantes": [],
+        "prioridad": "media",
+        "inicio": "2026-11-02",
+        "vence": "2026-11-06",
+        "duracion": "",
+        "duracionUnidad": "h",
+        "dependencias": [],
+        "estado": "curso",
+        "fin": "",
+        "motivoBloqueo": "",
+        "observaciones": "",
+        "creada": "2026-10-27",
+        "actualizada": "2026-10-27",
+        "docTipo": "",
+        "docRef": "",
+        "cambios": [
+          {
+            "ts": 1793156198660,
+            "texto": "Se creó la tarea"
+          }
+        ],
+        "id": "tmvriwhz8lqh"
+      },
+      {
+        "codigo": "T-023",
+        "titulo": "Confirmar reparto: Presentadora",
+        "descripcion": "Necesidad detectada en el desglose de «¿No eras tu_Fabiana» (v2). Aparece en las escenas 1, 3.",
+        "criterio": "«Presentadora» resuelto y confirmado para las escenas 1, 3.",
+        "etapa": "desarrollo",
+        "departamento": "Actores",
+        "resp": "pmvr6s2mr9io",
+        "seguimiento": "",
+        "participantes": [],
+        "prioridad": "media",
+        "inicio": "",
+        "vence": "",
+        "duracion": "",
+        "duracionUnidad": "h",
+        "dependencias": [],
+        "estado": "pendiente",
+        "fin": "",
+        "motivoBloqueo": "",
+        "observaciones": "",
+        "creada": "2026-11-12",
+        "actualizada": "2026-11-12",
+        "docTipo": "Guion",
+        "docRef": "¿No eras tu_Fabiana v2 · esc. 1, 3",
+        "cambios": [
+          {
+            "ts": 1794545313334,
+            "texto": "Se creó la tarea"
+          }
+        ],
+        "id": "tmwehy1pymz4"
+      },
+      {
+        "codigo": "T-024",
+        "titulo": "Scouting",
+        "descripcion": "Ir a hacer Scouting",
+        "criterio": "",
+        "etapa": "desarrollo",
+        "departamento": "Dirección",
+        "resp": "pmvr6s2mr9io",
+        "seguimiento": "",
+        "participantes": [
+          "pmvr6sk2z43c"
+        ],
+        "prioridad": "media",
+        "inicio": "2026-11-18",
+        "vence": "2026-11-18",
+        "duracion": "",
+        "duracionUnidad": "h",
+        "dependencias": [],
+        "estado": "curso",
+        "fin": "",
+        "motivoBloqueo": "",
+        "observaciones": "",
+        "creada": "2026-11-13",
+        "actualizada": "2026-11-13",
+        "docTipo": "",
+        "docRef": "",
+        "cambios": [
+          {
+            "ts": 1794548359942,
+            "texto": "Se creó la tarea"
+          },
+          {
+            "ts": 1794548366028,
+            "texto": "Estado: Pendiente → En curso"
+          }
+        ],
+        "id": "tmwejrchy2uk"
+      }
+    ],
+    "cronograma": [
+      {
+        "codigo": "A-001",
+        "titulo": "Prueba de Camara",
+        "descripcion": "se probaran las camaraas",
+        "etapa": "desarrollo",
+        "departamento": "",
+        "lugar": "",
+        "inicio": "2026-10-29T13:53",
+        "fin": "2026-10-29T22:55",
+        "inicioReal": "",
+        "finReal": "",
+        "responsable": "",
+        "participantes": [
+          "pmvr6ue5fene",
+          "pmvr6s2mr9io",
+          "pmvr6sk2z43c",
+          "pmvr6t5dnrjd"
+        ],
+        "confirmados": [],
+        "tareas": [],
+        "predecesoras": [],
+        "estado": "provisional",
+        "observaciones": "",
+        "reprogramaciones": [],
+        "creada": "2026-10-27",
+        "actualizada": "2026-10-27",
+        "cambios": [
+          {
+            "ts": 1793159491656,
+            "texto": "Se creó la actividad"
+          }
+        ],
+        "id": "amvrkv2vbh75"
+      },
+      {
+        "codigo": "A-002",
+        "titulo": "Llamamiento",
+        "descripcion": "",
+        "etapa": "produccion",
+        "departamento": "Producción",
+        "lugar": "",
+        "inicio": "2026-11-23T07:00",
+        "fin": "2026-11-23T07:57",
+        "inicioReal": "",
+        "finReal": "",
+        "responsable": "",
+        "participantes": [],
+        "confirmados": [],
+        "tareas": [],
+        "predecesoras": [],
+        "estado": "confirmada",
+        "observaciones": "",
+        "reprogramaciones": [
+          {
+            "ts": 1794549228835,
+            "deInicio": "2026-11-23T07:00",
+            "deFin": "2026-11-23T08:02",
+            "aInicio": "2026-11-23T07:00",
+            "aFin": "2026-11-23T07:57",
+            "motivo": "actualizacion"
+          }
+        ],
+        "creada": "2026-11-13",
+        "actualizada": "2026-11-13",
+        "cambios": [
+          {
+            "ts": 1794548871900,
+            "texto": "Se creó la actividad"
+          },
+          {
+            "ts": 1794549138299,
+            "texto": "Estado: Provisional → Confirmada"
+          },
+          {
+            "ts": 1794549228835,
+            "texto": "Horario: 23 nov. 07:00–08:02 → 23 nov. 07:00–07:57 (reprogramada; motivo: actualizacion)"
+          }
+        ],
+        "id": "amwek2bj0hbz"
+      },
+      {
+        "codigo": "A-003",
+        "titulo": "transporte de Ida - equipos",
+        "descripcion": "",
+        "etapa": "produccion",
+        "departamento": "Producción",
+        "lugar": "",
+        "inicio": "2026-11-23T08:00",
+        "fin": "2026-11-23T08:54",
+        "inicioReal": "",
+        "finReal": "",
+        "responsable": "",
+        "participantes": [
+          "pmvr6s2mr9io",
+          "pmvr6sk2z43c"
+        ],
+        "confirmados": [],
+        "tareas": [],
+        "predecesoras": [],
+        "estado": "confirmada",
+        "observaciones": "",
+        "reprogramaciones": [],
+        "creada": "2026-11-13",
+        "actualizada": "2026-11-13",
+        "cambios": [
+          {
+            "ts": 1794549118860,
+            "texto": "Se creó la actividad"
+          },
+          {
+            "ts": 1794549135620,
+            "texto": "Estado: Provisional → Confirmada"
+          },
+          {
+            "ts": 1794549156035,
+            "texto": "Se actualizaron los participantes"
+          },
+          {
+            "ts": 1794549156035,
+            "texto": "Departamento: Dirección → Producción"
+          },
+          {
+            "ts": 1794549604625,
+            "texto": "Se editó el nombre"
+          }
+        ],
+        "id": "amwek7m2zmbq"
+      },
+      {
+        "codigo": "A-004",
+        "titulo": "Construccion de Set",
+        "descripcion": "",
+        "etapa": "desarrollo",
+        "departamento": "",
+        "lugar": "",
+        "inicio": "2026-11-23T09:00",
+        "fin": "2026-11-23T10:00",
+        "inicioReal": "",
+        "finReal": "",
+        "responsable": "",
+        "participantes": [],
+        "confirmados": [],
+        "tareas": [],
+        "predecesoras": [],
+        "estado": "confirmada",
+        "observaciones": "",
+        "reprogramaciones": [],
+        "creada": "2026-11-13",
+        "actualizada": "2026-11-13",
+        "cambios": [
+          {
+            "ts": 1794549268530,
+            "texto": "Se creó la actividad"
+          },
+          {
+            "ts": 1794549270979,
+            "texto": "Estado: Provisional → Confirmada"
+          }
+        ],
+        "id": "amwekatkicpn"
+      },
+      {
+        "codigo": "A-005",
+        "titulo": "Inicio de rodaje - 1era etapa",
+        "descripcion": "",
+        "etapa": "produccion",
+        "departamento": "Dirección",
+        "lugar": "",
+        "inicio": "2026-11-23T10:00",
+        "fin": "2026-11-23T13:00",
+        "inicioReal": "",
+        "finReal": "",
+        "responsable": "",
+        "participantes": [],
+        "confirmados": [],
+        "tareas": [],
+        "predecesoras": [],
+        "estado": "provisional",
+        "observaciones": "",
+        "reprogramaciones": [],
+        "creada": "2026-11-13",
+        "actualizada": "2026-11-13",
+        "cambios": [
+          {
+            "ts": 1794549316195,
+            "texto": "Se creó la actividad"
+          },
+          {
+            "ts": 1794549422634,
+            "texto": "Se editó el nombre"
+          }
+        ],
+        "id": "amwekbucjonr"
+      },
+      {
+        "codigo": "A-007",
+        "titulo": "Descanso-Almuerzo",
+        "descripcion": "",
+        "etapa": "desarrollo",
+        "departamento": "",
+        "lugar": "",
+        "inicio": "2026-11-23T13:00",
+        "fin": "2026-11-23T14:00",
+        "inicioReal": "",
+        "finReal": "",
+        "responsable": "",
+        "participantes": [],
+        "confirmados": [],
+        "tareas": [],
+        "predecesoras": [],
+        "estado": "provisional",
+        "observaciones": "",
+        "reprogramaciones": [],
+        "creada": "2026-11-13",
+        "actualizada": "2026-11-13",
+        "cambios": [
+          {
+            "ts": 1794549359354,
+            "texto": "Se creó la actividad"
+          }
+        ],
+        "id": "amwekcrnew6c"
+      },
+      {
+        "codigo": "A-009",
+        "titulo": "Rodaje - 2da etapa",
+        "descripcion": "",
+        "etapa": "desarrollo",
+        "departamento": "",
+        "lugar": "",
+        "inicio": "2026-11-23T14:00",
+        "fin": "2026-11-23T17:30",
+        "inicioReal": "",
+        "finReal": "",
+        "responsable": "",
+        "participantes": [],
+        "confirmados": [],
+        "tareas": [],
+        "predecesoras": [],
+        "estado": "provisional",
+        "observaciones": "",
+        "reprogramaciones": [],
+        "creada": "2026-11-13",
+        "actualizada": "2026-11-13",
+        "cambios": [
+          {
+            "ts": 1794549520778,
+            "texto": "Se creó la actividad"
+          }
+        ],
+        "id": "amwekg87efch"
+      },
+      {
+        "codigo": "A-010",
+        "titulo": "Cierre y desarme",
+        "descripcion": "",
+        "etapa": "produccion",
+        "departamento": "",
+        "lugar": "",
+        "inicio": "2026-11-23T17:30",
+        "fin": "2026-11-23T18:30",
+        "inicioReal": "",
+        "finReal": "",
+        "responsable": "",
+        "participantes": [],
+        "confirmados": [],
+        "tareas": [],
+        "predecesoras": [],
+        "estado": "provisional",
+        "observaciones": "",
+        "reprogramaciones": [],
+        "creada": "2026-11-13",
+        "actualizada": "2026-11-13",
+        "cambios": [
+          {
+            "ts": 1794549564017,
+            "texto": "Se creó la actividad"
+          }
+        ],
+        "id": "amwekh5khqk4"
+      },
+      {
+        "codigo": "A-011",
+        "titulo": "Transporte regreso EPIC - equipos",
+        "descripcion": "",
+        "etapa": "desarrollo",
+        "departamento": "Producción",
+        "lugar": "",
+        "inicio": "2026-11-23T18:30",
+        "fin": "2026-11-23T19:30",
+        "inicioReal": "",
+        "finReal": "",
+        "responsable": "",
+        "participantes": [],
+        "confirmados": [],
+        "tareas": [],
+        "predecesoras": [],
+        "estado": "provisional",
+        "observaciones": "",
+        "reprogramaciones": [],
+        "creada": "2026-11-13",
+        "actualizada": "2026-11-13",
+        "cambios": [
+          {
+            "ts": 1794549584842,
+            "texto": "Se creó la actividad"
+          },
+          {
+            "ts": 1794549595074,
+            "texto": "Se editó el nombre"
+          }
+        ],
+        "id": "amwekhlmy9aq"
+      }
+    ],
+    "etapas": [
+      {
+        "id": "desarrollo",
+        "nombre": "Desarrollo",
+        "avance": 0
+      },
+      {
+        "id": "distribucion",
+        "nombre": "Distribución",
+        "avance": 0
+      },
+      {
+        "id": "postproduccion",
+        "nombre": "Postproducción",
+        "avance": 0
+      },
+      {
+        "id": "preproduccion",
+        "nombre": "Preproducción",
+        "avance": 0
+      },
+      {
+        "id": "produccion",
+        "nombre": "Rodaje",
+        "avance": 0
+      }
+    ],
+    "configuracion": [
+      {
+        "id": "contador-actividades",
+        "tipo": "contador",
+        "n": 11
+      },
+      {
+        "id": "contador-tareas",
+        "tipo": "contador",
+        "n": 24
+      },
+      {
+        "id": "hmvr6nq6csbg",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135633988,
+        "texto": "Se inició un proyecto en limpio"
+      },
+      {
+        "id": "hmvr6qw0jfnl",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135781523,
+        "texto": "Se cambió el título del proyecto a «Chicha Morada Studio»"
+      },
+      {
+        "id": "hmvr6rhbfebm",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135809131,
+        "texto": "Se actualizó la fecha de inicio de rodaje"
+      },
+      {
+        "id": "hmvr6rhbfjzb",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135809131,
+        "texto": "Se cambió la dirección a Fabiana Urbano"
+      },
+      {
+        "id": "hmvr6rhbfp3e",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135809131,
+        "texto": "Se actualizó la producción"
+      },
+      {
+        "id": "hmvr6rhbfx4p",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135809131,
+        "texto": "Se cambió el título del proyecto a «XD»"
+      },
+      {
+        "id": "hmvr6s2mrxic",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135836755,
+        "texto": "Se registró a Fabiana Urbano con 1 cargo"
+      },
+      {
+        "id": "hmvr6sk2zigv",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135859371,
+        "texto": "Se registró a Gonzalo Puclla con 1 cargo"
+      },
+      {
+        "id": "hmvr6sogjv1v",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135865043,
+        "texto": "Se actualizó a Gonzalo Puclla con 1 cargo"
+      },
+      {
+        "id": "hmvr6t5dnxe5",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135886971,
+        "texto": "Se registró a Jose Flores con 1 cargo"
+      },
+      {
+        "id": "hmvr6ti57jro",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135903515,
+        "texto": "Se registró a Samuel Caycho con 1 cargo"
+      },
+      {
+        "id": "hmvr6ty2bfq1",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135924147,
+        "texto": "Se registró a Nathan Ligth con 1 cargo"
+      },
+      {
+        "id": "hmvr6ue5fmpq",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135944995,
+        "texto": "Se registró a Adrian"
+      },
+      {
+        "id": "hmvr6uxnuxr3",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135970282,
+        "texto": "Se creó el cargo Actor en Actores"
+      },
+      {
+        "id": "hmvr6v4r7gri",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135979475,
+        "texto": "Se creó el cargo Actriz en Actores"
+      },
+      {
+        "id": "hmvr6vedma79",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135991946,
+        "texto": "Se actualizó a Adrian con 1 cargo"
+      },
+      {
+        "id": "hmvr6vhhu85g",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793135995986,
+        "texto": "Se actualizó a Adrian con 1 cargo"
+      },
+      {
+        "id": "hmvr6vpz68kr",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793136006978,
+        "texto": "Se actualizó a Nathan Ligth con 2 cargos"
+      },
+      {
+        "id": "hmvr6vu7m8py",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793136012466,
+        "texto": "Se actualizó a Samuel Caycho con 1 cargo"
+      },
+      {
+        "id": "hmvr6wvuckqm",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793136061236,
+        "texto": "Se creó la tarea T-001 «Presentación de Guion»"
+      },
+      {
+        "id": "hmvr6ya0rt2e",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793136126267,
+        "texto": "Tarea T-001: Estado: Pendiente → En curso (y 5 cambios más)"
+      },
+      {
+        "id": "hmvr70t16t2y",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793136244218,
+        "texto": "Se creó la tarea T-002 «Locación»"
+      },
+      {
+        "id": "hmvr81wyze1g",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793137975595,
+        "texto": "Se restauró una copia de seguridad"
+      },
+      {
+        "id": "hmvr841iadyk",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138074786,
+        "texto": "Se eliminó la tarea T-012 «»"
+      },
+      {
+        "id": "hmvr845j7nau",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138080003,
+        "texto": "Se eliminó la tarea T-004 «»"
+      },
+      {
+        "id": "hmvr84dpqibx",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138090606,
+        "texto": "Tarea T-007: Estado: Pendiente → En curso"
+      },
+      {
+        "id": "hmvr84ezkw4h",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138092256,
+        "texto": "Tarea T-013: Estado: Pendiente → En curso"
+      },
+      {
+        "id": "hmvr84fxy7g9",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138093494,
+        "texto": "Tarea T-014: Estado: Pendiente → En curso"
+      },
+      {
+        "id": "hmvr84gqnadk",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138094527,
+        "texto": "Tarea T-009: Estado: Pendiente → En curso"
+      },
+      {
+        "id": "hmvr84hmgf57",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138095672,
+        "texto": "Tarea T-011: Estado: En curso → Hecha"
+      },
+      {
+        "id": "hmvr84iouv41",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138097054,
+        "texto": "Tarea T-003: Estado: En curso → Hecha"
+      },
+      {
+        "id": "hmvr84od7pmr",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138104411,
+        "texto": "Tarea T-008: Estado: En curso → Hecha"
+      },
+      {
+        "id": "hmvr84tfq7t8",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138110982,
+        "texto": "Tarea T-005: Estado: Bloqueada → Hecha"
+      },
+      {
+        "id": "hmvr84ukoyci",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138112456,
+        "texto": "Tarea T-007: Estado: En curso → Hecha"
+      },
+      {
+        "id": "hmvr84vq7ki7",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138113951,
+        "texto": "Tarea T-013: Estado: En curso → Hecha"
+      },
+      {
+        "id": "hmvr84wljf7w",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138115079,
+        "texto": "Tarea T-014: Estado: En curso → Hecha"
+      },
+      {
+        "id": "hmvr84xee1pd",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138116118,
+        "texto": "Tarea T-006: Estado: En curso → Hecha"
+      },
+      {
+        "id": "hmvr85x7qzi4",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138162534,
+        "texto": "Tarea T-003: Estado: Hecha → Pendiente"
+      },
+      {
+        "id": "hmvr85yl37w3",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793138164311,
+        "texto": "Tarea T-005: Estado: Hecha → Pendiente"
+      },
+      {
+        "id": "hmvrfj61upnt",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793150537826,
+        "texto": "Se eliminó la tarea T-005 «»"
+      },
+      {
+        "id": "hmvrfj7wi9jk",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793150540226,
+        "texto": "Se eliminó la tarea T-003 «»"
+      },
+      {
+        "id": "hmvrfj9v6f8t",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793150542770,
+        "texto": "Se eliminó la tarea T-009 «»"
+      },
+      {
+        "id": "hmvrfjcne4l4",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793150546378,
+        "texto": "Se eliminó la tarea T-013 «»"
+      },
+      {
+        "id": "hmvrfje8i5z3",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793150548434,
+        "texto": "Se eliminó la tarea T-014 «»"
+      },
+      {
+        "id": "hmvrfjg020rx",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793150550722,
+        "texto": "Se eliminó la tarea T-006 «»"
+      },
+      {
+        "id": "hmvrfjhoqytx",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793150552906,
+        "texto": "Se eliminó la tarea T-007 «»"
+      },
+      {
+        "id": "hmvrfjj9uwrf",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793150554962,
+        "texto": "Se eliminó la tarea T-008 «»"
+      },
+      {
+        "id": "hmvrfjl8x6pn",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793150557522,
+        "texto": "Se eliminó la tarea T-011 «»"
+      },
+      {
+        "id": "hmvrfjo0yqi9",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793150561122,
+        "texto": "Se eliminó la tarea T-010 «»"
+      },
+      {
+        "id": "hmvrh49q04qy",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153201976,
+        "texto": "Se creó la tarea T-015 «Escritura de Guion»"
+      },
+      {
+        "id": "hmvrh5b3jaui",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153250415,
+        "texto": "Se creó la tarea T-016 «Desglose de Guion»"
+      },
+      {
+        "id": "hmvrh5g9nf0h",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153257115,
+        "texto": "Tarea T-015: Estado: Pendiente → Hecha"
+      },
+      {
+        "id": "hmvrh6hi7d3c",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153305375,
+        "texto": "Se creó la tarea T-017 «Alquiler de Locacion»"
+      },
+      {
+        "id": "hmvrh6m1mi48",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153311258,
+        "texto": "Tarea T-017: Estado: Pendiente → Hecha"
+      },
+      {
+        "id": "hmvrh7r9bjyy",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153364671,
+        "texto": "Se creó la tarea T-018 «Guion tecnico»"
+      },
+      {
+        "id": "hmvrh86tshwe",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153384848,
+        "texto": "Tarea T-018: Prioridad: Media → Alta"
+      },
+      {
+        "id": "hmvrh94afjze",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153428215,
+        "texto": "Se creó la tarea T-019 «Propuesta de Sonido»"
+      },
+      {
+        "id": "hmvrh9xyvpcy",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153466679,
+        "texto": "Se creó la tarea T-020 «Vestimentas»"
+      },
+      {
+        "id": "hmvrhb6xz4cl",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153524967,
+        "texto": "Se creó la tarea T-021 «Permisos de Equipos»"
+      },
+      {
+        "id": "hmvrhbyhatju",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153560654,
+        "texto": "Se actualizó a Fabiana Urbano con 2 cargos"
+      },
+      {
+        "id": "hmvrhckdr0mn",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153589039,
+        "texto": "Se actualizó las restricciones de Fabiana Urbano"
+      },
+      {
+        "id": "hmvrhclzabh1",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153591110,
+        "texto": "Se actualizó las observaciones de Fabiana Urbano"
+      },
+      {
+        "id": "hmvrhcmvqgr2",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153592278,
+        "texto": "Se actualizó las observaciones de Gonzalo Puclla"
+      },
+      {
+        "id": "hmvrhcstrb7t",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153599983,
+        "texto": "Se actualizó la disponibilidad de Samuel Caycho"
+      },
+      {
+        "id": "hmvrhczjdu6z",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793153608681,
+        "texto": "Se actualizó las restricciones de Samuel Caycho"
+      },
+      {
+        "id": "hmvril1nand5",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793155664278,
+        "texto": "Se restauró una copia de seguridad"
+      },
+      {
+        "id": "hmvrintza5gr",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793155794310,
+        "texto": "Se cambió el título del proyecto a «¿No eras Tu?»"
+      },
+      {
+        "id": "hmvrintzau73",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793155794310,
+        "texto": "Se actualizó la fecha de inicio de rodaje"
+      },
+      {
+        "id": "hmvrirajpq72",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793155955749,
+        "texto": "Se restauró una copia de seguridad"
+      },
+      {
+        "id": "hmvriwhz8ask",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793156198660,
+        "texto": "Se creó la tarea T-022 «Recogo de Presupuesto»"
+      },
+      {
+        "id": "hmvrixbp8u79",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793156237180,
+        "texto": "Tarea T-021: Se cambió la duración estimada"
+      },
+      {
+        "id": "hmvrkteptnln",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793159413697,
+        "texto": "Tarea T-016: Se cambió la duración estimada"
+      },
+      {
+        "id": "hmvrkv2vcwib",
+        "tipo": "historial",
+        "fecha": "2026-10-27",
+        "ts": 1793159491656,
+        "texto": "Se creó la actividad A-001 «Prueba de Camara»"
+      },
+      {
+        "id": "hmwegjq2klzz",
+        "tipo": "historial",
+        "fecha": "2026-11-12",
+        "ts": 1794542965436,
+        "texto": "Se restauró una copia de seguridad"
+      },
+      {
+        "id": "hmwegk0iywfw",
+        "tipo": "historial",
+        "fecha": "2026-11-12",
+        "ts": 1794542978986,
+        "texto": "Se importó el guion «¿No eras tu_Fabiana» (v1): 3 escenas y 8 elementos detectados"
+      },
+      {
+        "id": "hmwegocz36m6",
+        "tipo": "historial",
+        "fecha": "2026-11-12",
+        "ts": 1794543181743,
+        "texto": "Se importó el guion «¿No eras tu_Fabiana» (v2): 3 escenas y 7 elementos detectados"
+      },
+      {
+        "id": "hmwehwjy6vke",
+        "tipo": "historial",
+        "fecha": "2026-11-12",
+        "ts": 1794545243646,
+        "texto": "Se restauró una copia de seguridad"
+      },
+      {
+        "id": "hmwehy1pyr71",
+        "tipo": "historial",
+        "fecha": "2026-11-12",
+        "ts": 1794545313334,
+        "texto": "Se creó la tarea T-023 «Confirmar reparto: Presentadora» desde el desglose"
+      },
+      {
+        "id": "hmwejrchymzf",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794548359942,
+        "texto": "Se creó la tarea T-024 «Scouting»"
+      },
+      {
+        "id": "hmwejrh70lz0",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794548366028,
+        "texto": "Tarea T-024: Estado: Pendiente → En curso"
+      },
+      {
+        "id": "hmweju06tmc3",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794548483957,
+        "texto": "Se actualizó la producción"
+      },
+      {
+        "id": "hmweju65gk6c",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794548491684,
+        "texto": "Se actualizó la fecha de inicio de rodaje"
+      },
+      {
+        "id": "hmwek2bj0qsl",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794548871900,
+        "texto": "Se creó la actividad A-002 «Llamamiento»"
+      },
+      {
+        "id": "hmwek7m30h6m",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549118860,
+        "texto": "Se creó la actividad A-003 «transporte de Ida»"
+      },
+      {
+        "id": "hmwek7z0lqq8",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549135621,
+        "texto": "Actividad A-003: Estado: Provisional → Confirmada"
+      },
+      {
+        "id": "hmwek812z5c1",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549138299,
+        "texto": "Actividad A-002: Estado: Provisional → Confirmada"
+      },
+      {
+        "id": "hmwek8ern3p3",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549156035,
+        "texto": "Actividad A-003: Se actualizaron los participantes (y 1 cambio más)"
+      },
+      {
+        "id": "hmwek9yxvno4",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549228835,
+        "texto": "Actividad A-002: Horario: 23 nov. 07:00–08:02 → 23 nov. 07:00–07:57 (reprogramada; motivo: actualizacion)"
+      },
+      {
+        "id": "hmwekatkjbra",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549268531,
+        "texto": "Se creó la actividad A-004 «Construccion de Set»"
+      },
+      {
+        "id": "hmwekavgjytw",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549270979,
+        "texto": "Actividad A-004: Estado: Provisional → Confirmada"
+      },
+      {
+        "id": "hmwekbucj9cn",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549316195,
+        "texto": "Se creó la actividad A-005 «Inicio de rodaje»"
+      },
+      {
+        "id": "hmwekca0i6a5",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549336498,
+        "texto": "Se creó la actividad A-006 «Descanso»"
+      },
+      {
+        "id": "hmwekcheabbh",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549346066,
+        "texto": "Se eliminó la actividad A-006 «Descanso»"
+      },
+      {
+        "id": "hmwekcrne65m",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549359354,
+        "texto": "Se creó la actividad A-007 «Descanso-Almuerzo»"
+      },
+      {
+        "id": "hmwekdtxuo1i",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549408978,
+        "texto": "Se creó la actividad A-008 «Rodaje .2da etapa»"
+      },
+      {
+        "id": "hmweke4h6k7h",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549422634,
+        "texto": "Actividad A-005: Se editó el nombre"
+      },
+      {
+        "id": "hmwekegbnwr2",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549437987,
+        "texto": "Actividad A-008: Se editó el nombre"
+      },
+      {
+        "id": "hmwekemb6tki",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549445746,
+        "texto": "Actividad A-008: Se editó el nombre"
+      },
+      {
+        "id": "hmwekf9a2jbt",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549475514,
+        "texto": "Se eliminó la actividad A-008 «Rodaje - 2da etapa»"
+      },
+      {
+        "id": "hmwekg87egx2",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549520778,
+        "texto": "Se creó la actividad A-009 «Rodaje - 2da etapa»"
+      },
+      {
+        "id": "hmwekh5khcfc",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549564017,
+        "texto": "Se creó la actividad A-010 «Cierre y desarme»"
+      },
+      {
+        "id": "hmwekhlmyfr8",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549584842,
+        "texto": "Se creó la actividad A-011 «Transporte regreso EPIC»"
+      },
+      {
+        "id": "hmwekhtj6nmn",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549595074,
+        "texto": "Actividad A-011: Se editó el nombre"
+      },
+      {
+        "id": "hmweki0wh04r",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794549604625,
+        "texto": "Actividad A-003: Se editó el nombre"
+      },
+      {
+        "id": "hmwemguhtbgj",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794552908897,
+        "texto": "Se restauró una copia de seguridad"
+      },
+      {
+        "id": "hmwemh6hp4uo",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794552924445,
+        "texto": "Tarea T-018: Estado: Pendiente → Hecha"
+      },
+      {
+        "id": "hmwemh886usc",
+        "tipo": "historial",
+        "fecha": "2026-11-13",
+        "ts": 1794552926694,
+        "texto": "Tarea T-019: Estado: Pendiente → Hecha"
+      },
+      {
+        "id": "meta",
+        "tipo": "meta",
+        "sembradas": [
+          "proyecto",
+          "personas",
+          "cargos",
+          "asignaciones",
+          "tareas",
+          "cronograma",
+          "etapas",
+          "configuracion",
+          "guiones",
+          "escenas",
+          "elementos",
+          "apariciones"
+        ]
+      }
+    ],
+    "guiones": [
+      {
+        "id": "gumwegk0ispsa",
+        "nombre": "¿No eras tu_Fabiana",
+        "version": "v1",
+        "fecha": "2026-11-12",
+        "creado": "2026-11-13T04:09:38.980Z",
+        "formato": "PDF",
+        "archivo": "¿No eras tu_Fabiana.pdf",
+        "texto": "¿NO ERAS TU?\npor\nFabiana Urbano\n\nCurso: Direccion Escenica\nEPIC\nINT. CASA - NOCHE - SALA\nLa television esta encendida. Una presentadora habla sobre\nel clima, JESUS esta sentado en el sofa, mirando la\npantalla.\nJob se levanta.\nJOB\n¿Quieres algo?\nJESUS\nNo.\nJob sale hacia el pasillo.\nJesus continua mirando la television. Unos segundos despues\nJob aparece desde el pasillo y vuelve a sentarse a su lado.\nJESUS\n(CONT'D)\nOe, ¿Que fue? ¿No habias ido al\nbaño?\nJOB\n¿Que?\nJESUS\nTe acabo de ver huevon, te acabo de\nver salir de ahi\nJOB\nPero si ni siquiera me he levantado\nAmbos miran hacia el pasillo. Esta vacio.\nINT. PASILLO - NOCHE - CASA\nJesus y Job recorren rapidamente la casa. Revisan el baño,\nla cocina y los dormitorios.\nNo encuentran a nadie.\nJOB\nDe seguro viste mal mano\nJesus no responde.\nRegresan a la sala. Job entra priemro. Jesus se queda unos\nsegundos mirando el pasillo.\nAl fondo, ve a una persona identica a Job de espaldas,\nfrente a una puerta.\nJESUS\n¿Job?\nLa figura no se mueve.\nJesus parpadea. El pasillo esta vacio.\nJob aparece atras de el y le toca el hombro. Jesus se\nsobresalta. Job se rie.\nJOB\nJaja. Tranquilos pues hermanito,\n¿Que pasa?\nJesus lo observa, no responde.\nINT. SALA - NOCHE\nAmbos se sientan en el sofa. La television continua\ntransmitiendo el pronostico del clima.\nJesus mira a Job.\nJESUS\nSi me ves entrar a una habitacion,\nno me sigas.\nJOB\n¿Por que?\nJESUS\nSolo prometelo\nJOB\nYa, ya, te lo prometo.\nLa presentadora continua hablando.\nPRESENTADORA\n(T.V)\nY ahora, un recordatorio\nimportante.\nLa imagen parpadea brevemente. Job y Jesus mira la pantalla.\nPRESENTADORA\n(CONT'D)\nEsta noche hay dos hermanos en una\ncasa. Uno de ellos ya no esta.\nJesus se queda inmovil.\nJOB\n¿Que clase de noticia es esa?\nLa presentadora sonrie mirando directamente a la camara.\nSilencion.\nPRESENTADORA\nNo miren el pasillo.\nJob mira por encima de los hombros de Jesus.\nAl fondo, hay una figura identica a Jesus, completamente\ninmovil.\nJob deja de respirar por un momento.\nJESUS\n¿Que significa esto?\nJesus voltea y no hay nada.\nJob se queda perplejo.\nJESUS\n(CONT'D)\nOye, ¿Que estas mirando? ¿No diras\nnada de lo que dijo esa huevona de\nla tele?\nJob recupera el aliento y vuelve a la realidad, y se voltea.\nJOB\nApaga eso.\nJESUS\n¿QUe? ¿pero por que? Job que esta\npasando.\nJOB\nQue apagues eso.\nJESUS\n¡Yo no tengo el control!\nJob vuelve a mirar hacia el pasillo.\nLa figura ya no esta.\nJOB\nNos vamos ahora.\nJESUS\nMe estoy asustando, ¿puedes dame\nuna explicacion y hacia donde nos\nvamos?\nJOB\nNo hay tiempo, vamonos.\nJob se dirige rapidamente hacia la puerta principal.\nJesus lo sigue.\nJob abre la puerta, pero antes de salir se detiene y mira\nhacia la sala.\nEn el sofa hay otro Jesus, sentado frente a la television.\nJob y Jesus salen corriendo.\nLa puerta se queda abierta.\nLa sala esta vacia. La T.V sigue encendida.\nUnos segundos despues, jesus entra desde el pasillo y se\nsienta en el sofa mirando la television.\nNo parece asustado.\nPRESENTADORA\nYa pueden salir.\nJesus levanta lentamenta la cabeza.\nCORTE A\n\nLa presentadora en primer plano, con la imegen VHS. Mantiene\nuna expresion neutra.\nCORTE A PLANO REAL\n\nEl sofa esta vacio.\nJesus ah desaparecido.\nLa luz de la television se apaga.\nCORTE A NEGRO\nFIN.",
+        "pag": [
+          0,
+          64,
+          1031,
+          1942,
+          2818
+        ],
+        "pagEstimadas": false,
+        "notas": ""
+      },
+      {
+        "id": "gumwegocyzgtj",
+        "nombre": "¿No eras tu_Fabiana",
+        "version": "v2",
+        "fecha": "2026-11-12",
+        "creado": "2026-11-13T04:13:01.739Z",
+        "formato": "PDF",
+        "archivo": "¿No eras tu_Fabiana.pdf",
+        "texto": "¿NO ERAS TU?\npor\nFabiana Urbano\n\nCurso: Direccion Escenica\nEPIC\nINT. SALA - NOCHE\nLa television esta encendida. Una presentadora habla sobre\nel clima, JESUS esta sentado en el sofa, mirando la\npantalla.\nJob se levanta.\nJOB\n¿Quieres algo?\nJESUS\nNo.\nJob sale hacia el pasillo.\nJesus continua mirando la television. Unos segundos despues\nJob aparece desde el pasillo y vuelve a sentarse a su lado.\nJESUS\n(CONT'D)\nOe, ¿Que fue? ¿No habias ido al\nbaño?\nJOB\n¿Que?\nJESUS\nTe acabo de ver huevon, te acabo de\nver salir de ahi\nJOB\nPero si ni siquiera me he levantado\nAmbos miran hacia el pasillo. Esta vacio.\nINT. PASILLO - NOCHE\nJesus y Job recorren rapidamente la casa. Revisan el baño,\nla cocina y los dormitorios.\nNo encuentran a nadie.\nJOB\nDe seguro viste mal mano\nJesus no responde.\nRegresan a la sala. Job entra priemro. Jesus se queda unos\nsegundos mirando el pasillo.\nAl fondo, ve a una persona identica a Job de espaldas,\nfrente a una puerta.\nJESUS\n¿Job?\nLa figura no se mueve.\nJesus parpadea. El pasillo esta vacio.\nJob aparece atras de el y le toca el hombro. Jesus se\nsobresalta. Job se rie.\nJOB\nJaja. Tranquilos pues hermanito,\n¿Que pasa?\nJesus lo observa, no responde.\nINT. SALA - NOCHE\nAmbos se sientan en el sofa. La television continua\ntransmitiendo el pronostico del clima.\nJesus mira a Job.\nJESUS\nSi me ves entrar a una habitacion,\nno me sigas.\nJOB\n¿Por que?\nJESUS\nSolo prometelo\nJOB\nYa, ya, te lo prometo.\nLa presentadora continua hablando.\nPRESENTADORA\n(T.V)\nY ahora, un recordatorio\nimportante.\nLa imagen parpadea brevemente. Job y Jesus mira la pantalla.\nPRESENTADORA\n(CONT'D)\nEsta noche hay dos hermanos en una\ncasa. Uno de ellos ya no esta.\nJesus se queda inmovil.\nJOB\n¿Que clase de noticia es esa?\nLa presentadora sonrie mirando directamente a la camara.\nSilencion.\nPRESENTADORA\nNo miren el pasillo.\nJob mira por encima de los hombros de Jesus.\nAl fondo, hay una figura identica a Jesus, completamente\ninmovil.\nJob deja de respirar por un momento.\nJESUS\n¿Que significa esto?\nJesus voltea y no hay nada.\nJob se queda perplejo.\nJESUS\n(CONT'D)\nOye, ¿Que estas mirando? ¿No diras\nnada de lo que dijo esa huevona de\nla tele?\nJob recupera el aliento y vuelve a la realidad, y se voltea.\nJOB\nApaga eso.\nJESUS\n¿QUe? ¿pero por que? Job que esta\npasando.\nJOB\nQue apagues eso.\nJESUS\n¡Yo no tengo el control!\nJob vuelve a mirar hacia el pasillo.\nLa figura ya no esta.\nJOB\nNos vamos ahora.\nJESUS\nMe estoy asustando, ¿puedes dame\nuna explicacion y hacia donde nos\nvamos?\nJOB\nNo hay tiempo, vamonos.\nJob se dirige rapidamente hacia la puerta principal.\nJesus lo sigue.\nJob abre la puerta, pero antes de salir se detiene y mira\nhacia la sala.\nEn el sofa hay otro Jesus, sentado frente a la television.\nJob y Jesus salen corriendo.\nLa puerta se queda abierta.\nLa sala esta vacia. La T.V sigue encendida.\nUnos segundos despues, jesus entra desde el pasillo y se\nsienta en el sofa mirando la television.\nNo parece asustado.\nPRESENTADORA\nYa pueden salir.\nJesus levanta lentamenta la cabeza.\nCORTE A\n\nLa presentadora en primer plano, con la imegen VHS. Mantiene\nuna expresion neutra.\nCORTE A PLANO REAL\n\nEl sofa esta vacio.\nJesus ah desaparecido.\nLa luz de la television se apaga.\nCORTE A NEGRO\nFIN.",
+        "pag": [
+          0,
+          64,
+          1017,
+          1928,
+          2804
+        ],
+        "pagEstimadas": false,
+        "notas": ""
+      }
+    ],
+    "escenas": [
+      {
+        "id": "esmwegk0it7i0",
+        "guionId": "gumwegk0ispsa",
+        "orden": 1,
+        "numero": "1",
+        "ie": "INT",
+        "locacion": "Casa - Noche - Sala",
+        "momento": "",
+        "ini": 64,
+        "fin": 606,
+        "paginas": "2",
+        "resumen": "La television esta encendida. Una presentadora habla sobre el clima, JESUS esta sentado en el sofa, mirando la pantalla. Job se levanta.",
+        "observaciones": "",
+        "estado": "analisis"
+      },
+      {
+        "id": "esmwegk0it7i1",
+        "guionId": "gumwegk0ispsa",
+        "orden": 2,
+        "numero": "2",
+        "ie": "INT",
+        "locacion": "Pasillo - Noche - Casa",
+        "momento": "",
+        "ini": 606,
+        "fin": 1188,
+        "paginas": "2-3",
+        "resumen": "Jesus y Job recorren rapidamente la casa. Revisan el baño, la cocina y los dormitorios. No encuentran a nadie.",
+        "observaciones": "",
+        "estado": "analisis"
+      },
+      {
+        "id": "esmwegk0it7i2",
+        "guionId": "gumwegk0ispsa",
+        "orden": 3,
+        "numero": "3",
+        "ie": "INT",
+        "locacion": "Sala",
+        "momento": "Noche",
+        "ini": 1188,
+        "fin": 3209,
+        "paginas": "3-5",
+        "resumen": "Ambos se sientan en el sofa. La television continua transmitiendo el pronostico del clima. Jesus mira a Job. La sala esta vacia. La T.V sigue encendida. Unos segundos despues, jesus entra desde el pasillo y se",
+        "observaciones": "",
+        "estado": "analisis"
+      },
+      {
+        "id": "esmwegocyzlx0",
+        "guionId": "gumwegocyzgtj",
+        "orden": 1,
+        "numero": "1",
+        "ie": "INT",
+        "locacion": "Sala",
+        "momento": "Noche",
+        "ini": 64,
+        "fin": 599,
+        "paginas": "2",
+        "resumen": "La television esta encendida. Una presentadora habla sobre el clima, JESUS esta sentado en el sofa, mirando la pantalla. Job se levanta.",
+        "observaciones": "",
+        "estado": "analisis"
+      },
+      {
+        "id": "esmwegocyzlx1",
+        "guionId": "gumwegocyzgtj",
+        "orden": 2,
+        "numero": "2",
+        "ie": "INT",
+        "locacion": "Pasillo",
+        "momento": "Noche",
+        "ini": 599,
+        "fin": 1174,
+        "paginas": "2-3",
+        "resumen": "Jesus y Job recorren rapidamente la casa. Revisan el baño, la cocina y los dormitorios. No encuentran a nadie.",
+        "observaciones": "",
+        "estado": "analisis"
+      },
+      {
+        "id": "esmwegocyzlx2",
+        "guionId": "gumwegocyzgtj",
+        "orden": 3,
+        "numero": "3",
+        "ie": "INT",
+        "locacion": "Sala",
+        "momento": "Noche",
+        "ini": 1174,
+        "fin": 3195,
+        "paginas": "3-5",
+        "resumen": "Ambos se sientan en el sofa. La television continua transmitiendo el pronostico del clima. Jesus mira a Job. La sala esta vacia. La T.V sigue encendida. Unos segundos despues, jesus entra desde el pasillo y se",
+        "observaciones": "",
+        "estado": "analisis"
+      }
+    ],
+    "elementos": [
+      {
+        "id": "elmwegk0it7i3",
+        "guionId": "gumwegk0ispsa",
+        "categoria": "locacion",
+        "nombre": "Casa - Noche - Sala",
+        "departamento": "Producción",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmwegk0it7i5",
+        "guionId": "gumwegk0ispsa",
+        "categoria": "utileria",
+        "nombre": "Televisión",
+        "departamento": "Arte",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmwegk0it7i7",
+        "guionId": "gumwegk0ispsa",
+        "categoria": "personaje",
+        "nombre": "Presentadora",
+        "departamento": "Dirección",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmwegk0it7i9",
+        "guionId": "gumwegk0ispsa",
+        "categoria": "personaje",
+        "nombre": "Jesus",
+        "departamento": "Dirección",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmwegk0it7ib",
+        "guionId": "gumwegk0ispsa",
+        "categoria": "utileria",
+        "nombre": "Sofá",
+        "departamento": "Arte",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmwegk0it7id",
+        "guionId": "gumwegk0ispsa",
+        "categoria": "personaje",
+        "nombre": "Job",
+        "departamento": "Dirección",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmwegk0it7im",
+        "guionId": "gumwegk0ispsa",
+        "categoria": "locacion",
+        "nombre": "Pasillo - Noche - Casa",
+        "departamento": "Producción",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmwegk0it7it",
+        "guionId": "gumwegk0ispsa",
+        "categoria": "locacion",
+        "nombre": "Sala",
+        "departamento": "Producción",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmwegocyzlx3",
+        "guionId": "gumwegocyzgtj",
+        "categoria": "locacion",
+        "nombre": "Sala",
+        "departamento": "Producción",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmwegocyzlx5",
+        "guionId": "gumwegocyzgtj",
+        "categoria": "utileria",
+        "nombre": "Televisión",
+        "departamento": "Arte",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmwegocyzlx7",
+        "guionId": "gumwegocyzgtj",
+        "categoria": "personaje",
+        "nombre": "Presentadora",
+        "departamento": "Actores",
+        "notas": "",
+        "tareaId": "tmwehy1pymz4"
+      },
+      {
+        "id": "elmwegocyzlx9",
+        "guionId": "gumwegocyzgtj",
+        "categoria": "personaje",
+        "nombre": "Jesus",
+        "departamento": "Actores",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmwegocyzlxb",
+        "guionId": "gumwegocyzgtj",
+        "categoria": "utileria",
+        "nombre": "Sofá",
+        "departamento": "Arte",
+        "notas": "tener 2 sillones",
+        "tareaId": ""
+      },
+      {
+        "id": "elmwegocyzlxd",
+        "guionId": "gumwegocyzgtj",
+        "categoria": "personaje",
+        "nombre": "Job",
+        "departamento": "Actores",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmwegocyzlxm",
+        "guionId": "gumwegocyzgtj",
+        "categoria": "locacion",
+        "nombre": "Pasillo",
+        "departamento": "Producción",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmweipyaqp7o",
+        "guionId": "gumwegocyzgtj",
+        "categoria": "locacion",
+        "nombre": "Baño",
+        "departamento": "Producción",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmweiq41d8i7",
+        "guionId": "gumwegocyzgtj",
+        "categoria": "locacion",
+        "nombre": "Cocina",
+        "departamento": "Producción",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmweiqch5v0i",
+        "guionId": "gumwegocyzgtj",
+        "categoria": "locacion",
+        "nombre": "Dormitorios",
+        "departamento": "Producción",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmweix0s1fkk",
+        "guionId": "gumwegocyzgtj",
+        "categoria": "personaje",
+        "nombre": "Sombra",
+        "departamento": "Actores",
+        "notas": "",
+        "tareaId": ""
+      },
+      {
+        "id": "elmwejjjyus12",
+        "guionId": "gumwegocyzgtj",
+        "categoria": "utileria",
+        "nombre": "Control",
+        "departamento": "Arte",
+        "notas": "",
+        "tareaId": ""
+      }
+    ],
+    "apariciones": [
+      {
+        "id": "apmwegk0it7i10",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7id",
+        "ini": 1369,
+        "fin": 1372,
+        "texto": "JOB",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i11",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 1383,
+        "fin": 1388,
+        "texto": "JESUS",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i12",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7id",
+        "ini": 1404,
+        "fin": 1407,
+        "texto": "JOB",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i13",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i7",
+        "ini": 1466,
+        "fin": 1478,
+        "texto": "PRESENTADORA",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i14",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i7",
+        "ini": 1583,
+        "fin": 1595,
+        "texto": "PRESENTADORA",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i15",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7id",
+        "ini": 1695,
+        "fin": 1698,
+        "texto": "JOB",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i16",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i7",
+        "ini": 1797,
+        "fin": 1809,
+        "texto": "PRESENTADORA",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i17",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 1979,
+        "fin": 1984,
+        "texto": "JESUS",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i18",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 2057,
+        "fin": 2062,
+        "texto": "JESUS",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i19",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7id",
+        "ini": 2212,
+        "fin": 2215,
+        "texto": "JOB",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i1a",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 2227,
+        "fin": 2232,
+        "texto": "JESUS",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i1b",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7id",
+        "ini": 2276,
+        "fin": 2279,
+        "texto": "JOB",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i1c",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 2297,
+        "fin": 2302,
+        "texto": "JESUS",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i1d",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7id",
+        "ini": 2387,
+        "fin": 2390,
+        "texto": "JOB",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i1e",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 2408,
+        "fin": 2413,
+        "texto": "JESUS",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i1f",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7id",
+        "ini": 2488,
+        "fin": 2491,
+        "texto": "JOB",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i1g",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7ib",
+        "ini": 2664,
+        "fin": 2668,
+        "texto": "sofa",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": true
+      },
+      {
+        "id": "apmwegk0it7i1h",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i5",
+        "ini": 2705,
+        "fin": 2715,
+        "texto": "television",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": true
+      },
+      {
+        "id": "apmwegk0it7i1i",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 2841,
+        "fin": 2846,
+        "texto": "jesus",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i1j",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7ib",
+        "ini": 2888,
+        "fin": 2892,
+        "texto": "sofa",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i1k",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i5",
+        "ini": 2904,
+        "fin": 2914,
+        "texto": "television",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i1l",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i7",
+        "ini": 2936,
+        "fin": 2948,
+        "texto": "PRESENTADORA",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i1m",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i7",
+        "ini": 3014,
+        "fin": 3026,
+        "texto": "presentadora",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i1n",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7ib",
+        "ini": 3117,
+        "fin": 3121,
+        "texto": "sofa",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i1o",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 3134,
+        "fin": 3139,
+        "texto": "Jesus",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i1p",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i5",
+        "ini": 3170,
+        "fin": 3180,
+        "texto": "television",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i4",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i0",
+        "elementoId": "elmwegk0it7i3",
+        "ini": 69,
+        "fin": 88,
+        "texto": "CASA - NOCHE - SALA",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i6",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i0",
+        "elementoId": "elmwegk0it7i5",
+        "ini": 92,
+        "fin": 102,
+        "texto": "television",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7i8",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i0",
+        "elementoId": "elmwegk0it7i7",
+        "ini": 123,
+        "fin": 135,
+        "texto": "presentadora",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7ia",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i0",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 158,
+        "fin": 163,
+        "texto": "JESUS",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7ic",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i0",
+        "elementoId": "elmwegk0it7ib",
+        "ini": 183,
+        "fin": 187,
+        "texto": "sofa",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7ie",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i0",
+        "elementoId": "elmwegk0it7id",
+        "ini": 210,
+        "fin": 213,
+        "texto": "Job",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7if",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i0",
+        "elementoId": "elmwegk0it7id",
+        "ini": 226,
+        "fin": 229,
+        "texto": "JOB",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7ig",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i0",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 245,
+        "fin": 250,
+        "texto": "JESUS",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7ih",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i0",
+        "elementoId": "elmwegk0it7i5",
+        "ini": 308,
+        "fin": 318,
+        "texto": "television",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": true
+      },
+      {
+        "id": "apmwegk0it7ii",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i0",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 402,
+        "fin": 407,
+        "texto": "JESUS",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7ij",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i0",
+        "elementoId": "elmwegk0it7id",
+        "ini": 455,
+        "fin": 458,
+        "texto": "JOB",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7ik",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i0",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 465,
+        "fin": 470,
+        "texto": "JESUS",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7il",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i0",
+        "elementoId": "elmwegk0it7id",
+        "ini": 524,
+        "fin": 527,
+        "texto": "JOB",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7in",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i1",
+        "elementoId": "elmwegk0it7im",
+        "ini": 611,
+        "fin": 633,
+        "texto": "PASILLO - NOCHE - CASA",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7io",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i1",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 634,
+        "fin": 639,
+        "texto": "Jesus",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7ip",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i1",
+        "elementoId": "elmwegk0it7id",
+        "ini": 642,
+        "fin": 645,
+        "texto": "Job",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7iq",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i1",
+        "elementoId": "elmwegk0it7id",
+        "ini": 745,
+        "fin": 748,
+        "texto": "JOB",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7ir",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i1",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 957,
+        "fin": 962,
+        "texto": "JESUS",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7is",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i1",
+        "elementoId": "elmwegk0it7id",
+        "ini": 1109,
+        "fin": 1112,
+        "texto": "JOB",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7iu",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7it",
+        "ini": 1193,
+        "fin": 1197,
+        "texto": "SALA",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7iv",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7ib",
+        "ini": 1229,
+        "fin": 1233,
+        "texto": "sofa",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7iw",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i5",
+        "ini": 1238,
+        "fin": 1248,
+        "texto": "television",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7ix",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 1297,
+        "fin": 1302,
+        "texto": "Jesus",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7iy",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7id",
+        "ini": 1310,
+        "fin": 1313,
+        "texto": "Job",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegk0it7iz",
+        "guionId": "gumwegk0ispsa",
+        "escenaId": "esmwegk0it7i2",
+        "elementoId": "elmwegk0it7i9",
+        "ini": 1315,
+        "fin": 1320,
+        "texto": "JESUS",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx10",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 1369,
+        "fin": 1374,
+        "texto": "JESUS",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx11",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlxd",
+        "ini": 1390,
+        "fin": 1393,
+        "texto": "JOB",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx12",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx7",
+        "ini": 1452,
+        "fin": 1464,
+        "texto": "PRESENTADORA",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx13",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx7",
+        "ini": 1569,
+        "fin": 1581,
+        "texto": "PRESENTADORA",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx14",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlxd",
+        "ini": 1681,
+        "fin": 1684,
+        "texto": "JOB",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx15",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx7",
+        "ini": 1783,
+        "fin": 1795,
+        "texto": "PRESENTADORA",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx16",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 1965,
+        "fin": 1970,
+        "texto": "JESUS",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx17",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 2043,
+        "fin": 2048,
+        "texto": "JESUS",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx18",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlxd",
+        "ini": 2198,
+        "fin": 2201,
+        "texto": "JOB",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx19",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 2213,
+        "fin": 2218,
+        "texto": "JESUS",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx1a",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlxd",
+        "ini": 2262,
+        "fin": 2265,
+        "texto": "JOB",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx1b",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 2283,
+        "fin": 2288,
+        "texto": "JESUS",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx1c",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlxd",
+        "ini": 2373,
+        "fin": 2376,
+        "texto": "JOB",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx1d",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 2394,
+        "fin": 2399,
+        "texto": "JESUS",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx1e",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlxd",
+        "ini": 2474,
+        "fin": 2477,
+        "texto": "JOB",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx1f",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlxb",
+        "ini": 2650,
+        "fin": 2654,
+        "texto": "sofa",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": true
+      },
+      {
+        "id": "apmwegocyzlx1g",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx5",
+        "ini": 2691,
+        "fin": 2701,
+        "texto": "television",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": true
+      },
+      {
+        "id": "apmwegocyzlx1h",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 2827,
+        "fin": 2832,
+        "texto": "jesus",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx1i",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlxb",
+        "ini": 2874,
+        "fin": 2878,
+        "texto": "sofa",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx1j",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx5",
+        "ini": 2890,
+        "fin": 2900,
+        "texto": "television",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx1k",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx7",
+        "ini": 2922,
+        "fin": 2934,
+        "texto": "PRESENTADORA",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx1l",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx7",
+        "ini": 3000,
+        "fin": 3012,
+        "texto": "presentadora",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx1m",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlxb",
+        "ini": 3103,
+        "fin": 3107,
+        "texto": "sofa",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx1n",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 3120,
+        "fin": 3125,
+        "texto": "Jesus",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx1o",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx5",
+        "ini": 3156,
+        "fin": 3166,
+        "texto": "television",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx4",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx0",
+        "elementoId": "elmwegocyzlx3",
+        "ini": 69,
+        "fin": 73,
+        "texto": "SALA",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx6",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx0",
+        "elementoId": "elmwegocyzlx5",
+        "ini": 85,
+        "fin": 95,
+        "texto": "television",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlx8",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx0",
+        "elementoId": "elmwegocyzlx7",
+        "ini": 116,
+        "fin": 128,
+        "texto": "presentadora",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxa",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx0",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 151,
+        "fin": 156,
+        "texto": "JESUS",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxc",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx0",
+        "elementoId": "elmwegocyzlxb",
+        "ini": 176,
+        "fin": 180,
+        "texto": "sofa",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxe",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx0",
+        "elementoId": "elmwegocyzlxd",
+        "ini": 203,
+        "fin": 206,
+        "texto": "Job",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxf",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx0",
+        "elementoId": "elmwegocyzlxd",
+        "ini": 219,
+        "fin": 222,
+        "texto": "JOB",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxg",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx0",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 238,
+        "fin": 243,
+        "texto": "JESUS",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxh",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx0",
+        "elementoId": "elmwegocyzlx5",
+        "ini": 301,
+        "fin": 311,
+        "texto": "television",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": true
+      },
+      {
+        "id": "apmwegocyzlxi",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx0",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 395,
+        "fin": 400,
+        "texto": "JESUS",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxj",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx0",
+        "elementoId": "elmwegocyzlxd",
+        "ini": 448,
+        "fin": 451,
+        "texto": "JOB",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxk",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx0",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 458,
+        "fin": 463,
+        "texto": "JESUS",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxl",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx0",
+        "elementoId": "elmwegocyzlxd",
+        "ini": 517,
+        "fin": 520,
+        "texto": "JOB",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxn",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx1",
+        "elementoId": "elmwegocyzlxm",
+        "ini": 604,
+        "fin": 611,
+        "texto": "PASILLO",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxo",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx1",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 620,
+        "fin": 625,
+        "texto": "Jesus",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxp",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx1",
+        "elementoId": "elmwegocyzlxd",
+        "ini": 628,
+        "fin": 631,
+        "texto": "Job",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxq",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx1",
+        "elementoId": "elmwegocyzlxd",
+        "ini": 731,
+        "fin": 734,
+        "texto": "JOB",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxr",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx1",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 943,
+        "fin": 948,
+        "texto": "JESUS",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxs",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx1",
+        "elementoId": "elmwegocyzlxd",
+        "ini": 1095,
+        "fin": 1098,
+        "texto": "JOB",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxt",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx3",
+        "ini": 1179,
+        "fin": 1183,
+        "texto": "SALA",
+        "estado": "descartada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxu",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlxb",
+        "ini": 1215,
+        "fin": 1219,
+        "texto": "sofa",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxv",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx5",
+        "ini": 1224,
+        "fin": 1234,
+        "texto": "television",
+        "estado": "auto",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxw",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 1283,
+        "fin": 1288,
+        "texto": "Jesus",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxx",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlxd",
+        "ini": 1296,
+        "fin": 1299,
+        "texto": "Job",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxy",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx9",
+        "ini": 1301,
+        "fin": 1306,
+        "texto": "JESUS",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegocyzlxz",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlxd",
+        "ini": 1355,
+        "fin": 1358,
+        "texto": "JOB",
+        "estado": "confirmada",
+        "origen": "auto",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegq9w2g1p2",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx3",
+        "ini": 2638,
+        "fin": 2642,
+        "texto": "sala",
+        "estado": "confirmada",
+        "origen": "manual",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegq9w2vws3",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx3",
+        "ini": 2763,
+        "fin": 2767,
+        "texto": "sala",
+        "estado": "confirmada",
+        "origen": "manual",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegq9w2wy50",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwegocyzlx3",
+        "ini": 1179,
+        "fin": 1183,
+        "texto": "SALA",
+        "estado": "confirmada",
+        "origen": "manual",
+        "dudosa": false
+      },
+      {
+        "id": "apmwegq9w2z6p1",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx1",
+        "elementoId": "elmwegocyzlx3",
+        "ini": 793,
+        "fin": 797,
+        "texto": "sala",
+        "estado": "confirmada",
+        "origen": "manual",
+        "dudosa": false
+      },
+      {
+        "id": "apmweipyaqmil0",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx1",
+        "elementoId": "elmweipyaqp7o",
+        "ini": 673,
+        "fin": 677,
+        "texto": "baño",
+        "estado": "confirmada",
+        "origen": "manual",
+        "dudosa": false
+      },
+      {
+        "id": "apmweipyaqxgd1",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx0",
+        "elementoId": "elmweipyaqp7o",
+        "ini": 442,
+        "fin": 446,
+        "texto": "baño",
+        "estado": "confirmada",
+        "origen": "manual",
+        "dudosa": false
+      },
+      {
+        "id": "apmweiq41dag60",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx1",
+        "elementoId": "elmweiq41d8i7",
+        "ini": 682,
+        "fin": 688,
+        "texto": "cocina",
+        "estado": "confirmada",
+        "origen": "manual",
+        "dudosa": false
+      },
+      {
+        "id": "apmweiqch5yzz0",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx1",
+        "elementoId": "elmweiqch5v0i",
+        "ini": 695,
+        "fin": 706,
+        "texto": "dormitorios",
+        "estado": "confirmada",
+        "origen": "manual",
+        "dudosa": false
+      },
+      {
+        "id": "apmweix0s11kx0",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx1",
+        "elementoId": "elmweix0s1fkk",
+        "ini": 886,
+        "fin": 893,
+        "texto": "persona",
+        "estado": "confirmada",
+        "origen": "manual",
+        "dudosa": false
+      },
+      {
+        "id": "apmwejjjyumzn0",
+        "guionId": "gumwegocyzgtj",
+        "escenaId": "esmwegocyzlx2",
+        "elementoId": "elmwejjjyus12",
+        "ini": 2305,
+        "fin": 2312,
+        "texto": "control",
+        "estado": "confirmada",
+        "origen": "manual",
+        "dudosa": false
+      }
+    ]
+  }
+}
