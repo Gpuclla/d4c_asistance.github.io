@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gestión de tareas · Asistencia de dirección</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/componentes.css">
+  <link rel="stylesheet" href="../../panel/panel.css">
+  <link rel="stylesheet" href="tareas.css">
+</head>
+<body>
+  <div class="app">
+    <aside id="lateral" class="lateral"></aside>
+    <main class="contenido">
+      <header class="cabecera">
+        <div>
+          <h1>Gestión de tareas</h1>
+          <p>Registro, responsables, prioridades y Kanban</p>
+        </div>
+        <button class="btn primario" data-nueva>Nueva tarea</button>
+      </header>
+      <div id="aviso"></div>
+
+      <div class="pestanas" role="tablist">
+        <button role="tab" data-tab="panel" aria-selected="true">Panel de tareas</button>
+        <button role="tab" data-tab="tablero" aria-selected="false">Tablero Kanban</button>
+        <button role="tab" data-tab="lista" aria-selected="false">Lista de tareas</button>
+      </div>
+
+      <div id="filtros" class="herramientas" hidden>
+        <input id="q" type="search" placeholder="Buscar por código, nombre, persona o departamento" aria-label="Buscar tareas">
+        <select id="f-estado" aria-label="Estado" hidden></select>
+        <select id="f-prioridad" aria-label="Prioridad"></select>
+        <select id="f-depto" aria-label="Departamento"></select>
+        <select id="f-persona" aria-label="Persona (cualquier rol)"></select>
+        <select id="f-etapa" aria-label="Etapa"></select>
+        <button class="btn" id="limpiar">Limpiar filtros</button>
+      </div>
+
+      <section id="tab-panel" role="tabpanel">
+        <div id="resumen" class="resumen" aria-label="Resumen de tareas"></div>
+        <div class="rejilla" style="margin-top:28px">
+          <div>
+            <section class="seccion">
+              <h2>Próximos vencimientos</h2>
+              <ul id="proximos" class="filas"></ul>
+            </section>
+          </div>
+          <div>
+            <section class="seccion">
+              <h2>Requieren atención</h2>
+              <ul id="atencion" class="alertas"></ul>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="tab-tablero" role="tabpanel" hidden>
+        <div id="kanban" class="kanban"></div>
+        <p class="nota">Arrastra las tarjetas entre columnas o usa el selector de cada tarjeta para cambiar su estado.</p>
+      </section>
+
+      <section id="tab-lista" role="tabpanel" hidden>
+        <div class="tabla-caja"><table>
+          <thead><tr>
+            <th><button class="orden" data-orden="codigo">Código</button></th>
+            <th><button class="orden" data-orden="titulo">Tarea</button></th>
+            <th><button class="orden" data-orden="resp">Responsable</button></th>
+            <th><button class="orden" data-orden="prioridad">Prioridad</button></th>
+            <th><button class="orden" data-orden="estado">Estado</button></th>
+            <th><button class="orden" data-orden="vence">Fecha límite</button></th>
+            <th></th>
+          </tr></thead>
+          <tbody id="lista-filas"></tbody>
+        </table></div>
+        <p id="lista-total" class="nota"></p>
+      </section>
+    </main>
+  </div>
+
+  <script src="../../js/utils.js"></script>
+  <script src="../../data/semillas/semillas.js"></script>
+  <script src="../../js/servicios/db.js"></script>
+  <script src="../../js/servicios/equipo.service.js"></script>
+  <script src="../../js/servicios/tareas.service.js"></script>
+  <script src="../../js/componentes/formulario.js"></script>
+  <script src="../../js/componentes/respaldo.js"></script>
+  <script src="../../js/componentes/lateral.js"></script>
+  <script>Lateral.render('tareas', '../../');</script>
+  <script src="tareas.js"></script>
+</body>
+</html>

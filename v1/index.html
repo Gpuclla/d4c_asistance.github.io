@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panel principal · Asistencia de dirección</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/componentes.css">
+  <link rel="stylesheet" href="panel/panel.css">
+</head>
+<body>
+  <div class="app">
+    <aside id="lateral" class="lateral"></aside>
+
+    <main class="contenido">
+      <header class="cabecera">
+        <h1>Panel principal</h1>
+        <p id="fecha-hoy"></p>
+      </header>
+      <div id="aviso"></div>
+
+      <section id="claqueta" class="claqueta" aria-label="Datos del proyecto"></section>
+      <nav id="areas" class="areas" aria-label="Resumen por área"></nav>
+
+      <div class="rejilla">
+        <div>
+          <section class="seccion">
+            <h2>Tareas críticas</h2>
+            <ul id="criticas" class="filas"></ul>
+          </section>
+        </div>
+        <div>
+          <section class="seccion">
+            <h2>Alertas</h2>
+            <ul id="alertas" class="alertas"></ul>
+          </section>
+          <section class="seccion">
+            <h2>Próximas actividades</h2>
+            <ul id="proximas" class="filas"></ul>
+          </section>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/utils.js"></script>
+  <script src="data/semillas/semillas.js"></script>
+  <script src="js/servicios/db.js"></script>
+  <script src="js/servicios/equipo.service.js"></script>
+  <script src="js/servicios/tareas.service.js"></script>
+  <script src="js/servicios/cronograma.service.js"></script>
+  <script src="js/componentes/formulario.js"></script>
+  <script src="js/componentes/respaldo.js"></script>
+  <script src="js/componentes/lateral.js"></script>
+  <script>Lateral.render('panel');</script>
+  <script src="panel/panel.js"></script>
+</body>
+</html>

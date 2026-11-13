@@ -1,0 +1,74 @@
+/* Resumen (panel de tareas) */
+.resumen{display:grid;grid-template-columns:repeat(6,1fr);border-top:1px solid var(--linea);border-bottom:1px solid var(--linea);margin-top:20px}
+.dato{font:inherit;color:inherit;text-align:left;background:none;border:0;border-right:1px solid var(--linea);padding:14px 16px;cursor:pointer}
+.dato:last-child{border-right:0}
+.dato:hover{background:var(--superficie)}
+.dato-n{display:block;font-size:30px;font-weight:700;line-height:1.1}
+.dato-t{display:block;font-weight:600}
+.dato-s{display:block;font-size:13px;color:var(--tenue)}
+.dato.alerta .dato-n{color:var(--alerta)}
+@media (max-width:1000px){.resumen{grid-template-columns:repeat(3,1fr)}.dato{border-bottom:1px solid var(--linea)}}
+@media (max-width:560px){.resumen{grid-template-columns:repeat(2,1fr)}}
+.fila-boton{font:inherit;color:inherit;background:none;border:0;padding:0;display:flex;gap:14px;align-items:center;width:100%;text-align:left;cursor:pointer}
+.alertas li{padding:0}
+.alertas li .fila-boton{padding:9px 12px;display:block}
+.alertas li small{display:block;color:var(--tenue)}
+
+/* Prioridad */
+.etiqueta.pr-critica{background:var(--alerta);color:#fff}
+.etiqueta.pr-alta{background:var(--alerta-suave);color:var(--alerta)}
+.etiqueta.pr-media{background:var(--aviso-suave);color:var(--aviso)}
+.etiqueta.pr-baja{background:var(--papel);color:var(--tenue)}
+.codigo{font-size:12px;font-weight:600;color:var(--tenue);white-space:nowrap}
+
+/* Tablero Kanban */
+.kanban{display:grid;grid-template-columns:repeat(4,minmax(240px,1fr));gap:14px;overflow-x:auto;padding-bottom:8px;align-items:start}
+.col{background:#E6EAEC;border-radius:var(--radio);padding:10px;min-height:170px}
+.col.sobre{outline:2px dashed var(--acento);background:var(--acento-suave)}
+.col>header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.col h3{font-size:14px}
+.col[data-estado="bloqueada"] h3{color:var(--alerta)}
+.cuenta{font-size:12px;font-weight:600;background:var(--superficie);border-radius:99px;padding:0 9px}
+.col-cuerpo{display:flex;flex-direction:column;gap:8px}
+.tarjeta{background:var(--superficie);border:1px solid var(--linea);border-left:4px solid var(--linea);border-radius:var(--radio);padding:9px 11px;cursor:pointer;display:flex;flex-direction:column;gap:5px}
+.tarjeta:hover{box-shadow:0 1px 6px rgba(23,33,43,.18)}
+.tarjeta.arrastrando{opacity:.45}
+.tarjeta.pr-critica{border-left-color:var(--alerta)}
+.tarjeta.pr-alta{border-left-color:#D9776F}
+.tarjeta.pr-media{border-left-color:#D9A441}
+.tarjeta.pr-baja{border-left-color:#9AA6AE}
+.tarjeta strong{font-weight:600;line-height:1.3}
+.t-top,.t-pie{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.t-meta{display:flex;flex-direction:column;font-size:13px;color:var(--tenue)}
+.t-pie{flex-wrap:wrap}
+.t-pie select{width:auto;font-size:12px;padding:2px 4px}
+.t-avisos{display:flex;flex-wrap:wrap;gap:4px}
+.vence.vencida,td.vencida{color:var(--alerta);font-weight:600}
+.vacio-col{font-size:13px;color:var(--tenue);padding:8px 4px}
+
+/* Lista */
+th .orden{font:inherit;font-weight:600;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+th[aria-sort="ascending"] .orden::after{content:" ▲";font-size:10px}
+th[aria-sort="descending"] .orden::after{content:" ▼";font-size:10px}
+tr[data-ver]{cursor:pointer}
+tr[data-ver]:hover{background:var(--papel)}
+.nota{margin-top:12px;font-size:13px;color:var(--tenue)}
+
+/* Formulario de tarea (cinco grupos) y detalle */
+.formulario .pestanas{margin:0 0 14px;overflow-x:auto}
+.formulario .pestanas button{white-space:nowrap;padding:8px 9px;font-size:14px}
+.lista-check{border:1px solid var(--linea);border-radius:var(--radio);padding:8px 12px;margin:0 0 12px;max-height:170px;overflow:auto}
+.lista-check legend{font-size:13px;color:var(--tenue);padding:0 6px}
+.lista-check label{display:flex;gap:8px;align-items:center;font-size:14px;color:var(--tinta);margin:4px 0}
+.lista-check input{margin:0}
+.formulario h4{font-size:14px;margin:16px 0 6px}
+.cambios li{font-size:13px;padding:5px 0;border-top:1px solid var(--linea)}
+.cambios li span{color:var(--tenue);margin-right:6px}
+.detalle h3{font-size:14px;border-bottom:1px solid var(--linea);padding-bottom:4px;margin-top:18px}
+.ficha{display:grid;grid-template-columns:150px 1fr;gap:6px 14px;margin:10px 0 0}
+.ficha dt{font-size:13px;color:var(--tenue)}
+.ficha dd{margin:0;overflow-wrap:anywhere}
+@media (max-width:520px){.ficha{grid-template-columns:1fr}}
+.etq-tarea{font:inherit;font-size:13px;color:var(--tinta);border:1px solid var(--linea);background:var(--superficie);border-radius:99px;padding:1px 10px;margin:0 6px 4px 0;cursor:pointer}
+.etq-tarea:hover{border-color:var(--tenue)}
+.detalle .acciones{margin-top:18px}

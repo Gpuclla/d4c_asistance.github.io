@@ -1,0 +1,11 @@
+/* Fuente local: copia HankenGrotesk-Variable.woff2 en assets/fuentes/ para que se vea igual sin internet.
+   Si el archivo no está, se usa la de Google Fonts (con internet) o la del sistema. */
+@font-face{font-family:"Hanken Local";font-style:normal;font-weight:400 700;font-display:swap;
+  src:local("Hanken Grotesk"),url("../assets/fuentes/HankenGrotesk-Variable.woff2") format("woff2")}
+:root{
+  --tinta:#17212B; --tinta-2:#26323E; --papel:#F2F4F5; --superficie:#FFFFFF;
+  --linea:#D8DDE1; --tenue:#5A6671; --acento:#1D5C63; --acento-suave:#E1EEEF;
+  --alerta:#B3261E; --alerta-suave:#FBE9E7; --aviso:#8A5A00; --aviso-suave:#FDF1D8; --ok:#2F7D4F;
+  --fuente:"Hanken Local","Hanken Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --radio:6px;
+}

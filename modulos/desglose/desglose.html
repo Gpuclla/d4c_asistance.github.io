@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desglose de guion · Asistencia de dirección</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/componentes.css">
+  <link rel="stylesheet" href="../../panel/panel.css">
+  <link rel="stylesheet" href="desglose.css">
+</head>
+<body>
+  <div class="app">
+    <aside id="lateral" class="lateral"></aside>
+    <main class="contenido">
+      <header class="cabecera">
+        <h1>Desglose de guion</h1>
+        <p>Escenas, elementos de producción e inventario</p>
+      </header>
+      <div id="aviso"></div>
+
+      <div class="barra-guion">
+        <label id="lbl-guion" class="barra-sel">Guion y versión<select id="sel-guion"></select></label>
+        <span class="espacio"></span>
+        <button class="btn primario" data-importar>Importar guion</button>
+      </div>
+
+      <section id="vacio" class="vacio-guion" hidden>
+        <h2>Todavía no hay un guion</h2>
+        <p class="tenue">Importa un archivo PDF, DOCX o TXT, o pega el texto. La aplicación detecta las escenas y propone los elementos de producción; tú revisas y confirmas.</p>
+        <p class="tenue" style="margin-top:6px">Para probar: importa <code>data/ejemplos/guion-ejemplo.txt</code>.</p>
+        <p style="margin-top:16px"><button class="btn primario" data-importar>Importar guion</button></p>
+      </section>
+
+      <div id="contenido" hidden>
+        <section id="indicadores" class="indicadores" aria-label="Resumen del desglose"></section>
+
+        <div class="pestanas" role="tablist">
+          <button role="tab" data-tab="escenas" aria-selected="true">Escenas</button>
+          <button role="tab" data-tab="guion" aria-selected="false">Guion marcado</button>
+          <button role="tab" data-tab="inventario" aria-selected="false">Inventario</button>
+          <button role="tab" data-tab="revision" aria-selected="false">Revisión y versiones</button>
+        </div>
+
+        <section id="tab-escenas" role="tabpanel">
+          <div class="herramientas">
+            <input id="q" type="search" placeholder="Buscar por número, locación o resumen" aria-label="Buscar escenas">
+            <select id="f-estado" aria-label="Estado de revisión"></select>
+            <span class="espacio"></span>
+            <button class="btn" data-nueva-escena>Registrar escena a mano</button>
+          </div>
+          <div class="tabla-caja"><table>
+            <thead><tr><th>N.º</th><th>Escena</th><th>Págs.</th><th>Elementos</th><th>Revisión</th><th></th></tr></thead>
+            <tbody id="escenas-filas"></tbody>
+          </table></div>
+        </section>
+
+        <section id="tab-guion" role="tabpanel" hidden>
+          <div class="herramientas">
+            <div id="leyenda" class="leyendas" role="group" aria-label="Categorías visibles"></div>
+          </div>
+          <div class="herramientas">
+            <label class="barra-sel">Ir a la escena<select id="ir-escena"></select></label>
+            <label><input id="f-descartados" type="checkbox"> Mostrar descartados</label>
+            <span class="tenue" style="font-size:13px">Haz clic en una palabra marcada para revisarla. Selecciona un texto para añadirlo como elemento.</span>
+          </div>
+          <div id="guion-texto" class="guion"></div>
+          <button id="btn-agregar" class="btn primario btn-agregar" hidden>Añadir como elemento…</button>
+        </section>
+
+        <section id="tab-inventario" role="tabpanel" hidden>
+          <div class="herramientas">
+            <input id="i-q" type="search" placeholder="Buscar elemento" aria-label="Buscar elemento">
+            <select id="i-cat" aria-label="Categoría"></select>
+            <select id="i-esc" aria-label="Escena"></select>
+            <select id="i-depto" aria-label="Departamento"></select>
+            <select id="i-estado" aria-label="Estado"></select>
+            <label><input id="i-rep" type="checkbox"> Solo repetidos</label>
+            <label><input id="i-desc" type="checkbox"> Mostrar descartados</label>
+          </div>
+          <p class="tenue" id="i-cuenta" style="margin-bottom:8px"></p>
+          <div id="inv-grupos"></div>
+        </section>
+
+        <section id="tab-revision" role="tabpanel" hidden><div id="revision"></div></section>
+      </div>
+    </main>
+  </div>
+
+  <script src="../../js/utils.js"></script>
+  <script src="../../data/semillas/semillas.js"></script>
+  <script src="../../js/servicios/db.js"></script>
+  <script src="../../js/servicios/equipo.service.js"></script>
+  <script src="../../js/servicios/tareas.service.js"></script>
+  <script src="../../js/servicios/desglose.service.js"></script>
+  <script src="../../js/componentes/formulario.js"></script>
+  <script src="../../js/componentes/importador.js"></script>
+  <script src="../../js/componentes/respaldo.js"></script>
+  <script src="../../js/componentes/lateral.js"></script>
+  <script>Lateral.render('desglose', '../../');</script>
+  <script src="desglose.js"></script>
+</body>
+</html>

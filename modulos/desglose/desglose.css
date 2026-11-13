@@ -1,0 +1,97 @@
+.indicadores{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--linea);border-bottom:1px solid var(--linea)}
+.indicador{padding:14px 16px;border-right:1px solid var(--linea)}
+.indicador:last-child{border-right:0}
+.indicador-n{display:block;font-size:30px;font-weight:700;line-height:1.1}
+.indicador-n.txt{font-size:22px;line-height:1.45}
+.indicador.mal .indicador-n{color:var(--alerta)}
+.indicador-t{display:block;font-weight:600}
+.indicador-s{display:block;font-size:13px;color:var(--tenue)}
+@media (max-width:700px){.indicadores{grid-template-columns:1fr 1fr}.indicador{border-bottom:1px solid var(--linea)}}
+.barra-guion{display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap;margin:0 0 18px}
+.barra-sel{display:flex;flex-direction:column;gap:3px;margin:0;font-size:13px;color:var(--tenue)}
+.barra-sel select{width:auto;min-width:220px;max-width:420px;color:var(--tinta)}
+.espacio{flex:1}
+.vacio-guion{border:2px dashed var(--linea);border-radius:var(--radio);padding:34px 20px;text-align:center;background:var(--superficie)}
+.vacio-guion h2{font-size:20px;margin-bottom:6px}
+.nota{margin-top:6px;font-size:13px;color:var(--tenue)}
+.alerta-txt{color:var(--alerta)}
+button.enlace{font:inherit;background:none;border:0;padding:0;color:var(--tinta);cursor:pointer;text-align:left}
+button.enlace:hover strong{text-decoration:underline}
+td.num{font-weight:700;width:56px}
+td.acc{text-align:right;white-space:nowrap}
+.sel-mini{width:auto;padding:3px 8px;font-size:14px}
+
+/* Categorías: un color por categoría (el nombre siempre acompaña al color) */
+.c-personaje{--c:#FFD3A3;--b:#D9822B}
+.c-locacion{--c:#C3E6C5;--b:#3E9B4F}
+.c-utileria{--c:#BCD9F5;--b:#2F7DC4}
+.c-vestuario{--c:#F7C6DD;--b:#C9488A}
+.c-vehiculo{--c:#D9CCF3;--b:#7655C4}
+.c-sonido{--c:#F3EE9C;--b:#A99B14}
+.c-efectos{--c:#F8BDB5;--b:#C9503F}
+.c-tecnico{--c:#C2E8E5;--b:#2B9C93}
+.cat{display:inline-block;padding:1px 9px;border-radius:99px;font-size:12px;font-weight:600;background:var(--c);border:1px solid var(--b);color:var(--tinta)}
+.punto{display:inline-flex;min-width:22px;height:22px;padding:0 5px;align-items:center;justify-content:center;border-radius:99px;font-size:12px;font-weight:700;background:var(--c);border:1px solid var(--b);margin-right:3px}
+.leyendas{display:flex;gap:8px;flex-wrap:wrap}
+.leyenda{font:inherit;font-size:13px;display:inline-flex;gap:6px;align-items:center;padding:4px 11px;border:1px solid var(--b);border-radius:99px;background:var(--c);cursor:pointer;color:var(--tinta)}
+.leyenda[aria-pressed="false"]{background:var(--superficie);border-color:var(--linea);color:var(--tenue);text-decoration:line-through}
+
+/* Guion marcado */
+.guion{background:var(--superficie);border:1px solid var(--linea);border-radius:var(--radio);padding:22px clamp(14px,4vw,44px);font-family:"Courier New",Courier,monospace;font-size:14.5px;line-height:1.6;max-height:70vh;overflow:auto}
+.g-escena{padding-bottom:12px;margin-bottom:14px;border-bottom:1px dashed var(--linea)}
+.l{white-space:pre-wrap;min-height:1.6em}
+.l-slug{font-weight:700;margin-top:4px}
+.l-cue{padding-left:28%}
+.l-paren{padding-left:22%;font-style:italic}
+.l-dialogo{padding:0 12% 0 12%}
+.l-transicion{text-align:right;font-weight:700}
+mark.m{background:var(--c);border-bottom:2px dashed var(--b);color:inherit;cursor:pointer;border-radius:2px;padding:0 1px}
+mark.m:hover{filter:brightness(.93)}
+mark.m.e-confirmada{border-bottom-style:solid}
+mark.m.e-descartada{background:none;text-decoration:line-through;opacity:.65;border-bottom-color:var(--linea)}
+mark.m.dud{outline:1px dotted var(--alerta);outline-offset:1px}
+.btn-agregar{position:fixed;z-index:60;box-shadow:0 4px 14px rgba(23,33,43,.25)}
+.cita{background:var(--papel);border-left:3px solid var(--linea);padding:8px 12px;margin:10px 0;font-family:"Courier New",Courier,monospace;font-size:14px}
+
+/* Ficha de escena y ventanas */
+dialog.ancho{width:min(800px,95vw)}
+.formulario h3{font-size:15px;margin:16px 0 6px}
+.ficha-grid{display:grid;grid-template-columns:90px 1fr 1fr 110px;gap:0 12px}
+@media (max-width:640px){.ficha-grid{grid-template-columns:1fr 1fr}}
+.el-lista{list-style:none;margin:0;padding:0}
+.el-fila{display:flex;gap:10px;align-items:center;padding:7px 0;border-top:1px solid var(--linea);flex-wrap:wrap}
+.el-fila:first-child{border-top:0}
+.el-fila .tenue{font-size:13px}
+.el-acc{margin-left:auto;display:flex;gap:6px}
+.btn.mini{padding:2px 10px;font-size:13px}
+.f-add{display:grid;grid-template-columns:200px 1fr auto;gap:8px;margin-top:10px;align-items:end}
+@media (max-width:640px){.f-add{grid-template-columns:1fr}}
+.f-add label{margin:0}
+.ficha{display:grid;grid-template-columns:150px 1fr;gap:6px 14px;margin:10px 0}
+.ficha dt{color:var(--tenue);font-size:14px}
+.ficha dd{margin:0}
+.lista-check{max-height:150px;overflow:auto;border:1px solid var(--linea);border-radius:var(--radio);padding:6px 10px;margin-bottom:12px}
+
+/* Inventario */
+.inv-grupo{margin-bottom:22px}
+.inv-grupo h3{display:flex;gap:8px;align-items:center;font-size:15px;margin-bottom:6px}
+.chips-esc{display:flex;gap:4px;flex-wrap:wrap}
+.chip-esc{font:inherit;font-size:13px;padding:0 7px;border:1px solid var(--linea);border-radius:99px;background:var(--papel);cursor:pointer;color:var(--tinta)}
+.chip-esc:hover{border-color:var(--tenue)}
+td .btn.mini+.btn.mini{margin-left:4px}
+.est-bloque{display:flex;gap:4px;flex-wrap:wrap}
+
+/* Revisión */
+.rev-bloque{margin-top:22px}
+.rev-bloque h2{font-size:16px;padding-bottom:8px;border-bottom:2px solid var(--tinta);margin-bottom:6px}
+.rev-lista{list-style:none;margin:0;padding:0}
+.rev-lista li{display:flex;gap:10px;align-items:center;padding:8px 0;border-top:1px solid var(--linea);flex-wrap:wrap}
+.rev-lista li:first-child{border-top:0}
+.rev-acciones{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.rev-bloque textarea{width:100%}
+
+/* En pantallas estrechas las tablas anchas se desplazan dentro de su caja, sin ensanchar toda la página */
+.contenido{min-width:0}
+@media (max-width:640px){.tabla-caja table{min-width:640px}.guion{padding:16px 12px}.l-cue{padding-left:14%}.l-dialogo{padding:0 4%}.l-paren{padding-left:10%}}
+.pestanas{overflow-x:auto}
+.pestanas button{white-space:nowrap}
